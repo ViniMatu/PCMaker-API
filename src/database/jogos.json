@@ -1,0 +1,2054 @@
+[
+  {
+    "app": {
+      "appid": 730,
+      "name": "Counter-Strike: Global Offensive"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/730/header.jpg?t=1683566799",
+    "minimum": {
+      "OS": "Windows® 7/Vista/XP",
+      "CPU": "Intel® Core™ 2 Duo E6600 or AMD Phenom™ X3 8750 processor or better",
+      "RAM": "2 GB RAM",
+      "GPU": " Video card must be 256 MB or more and should be a DirectX 9-compatible with support for Pixel Shader 3.0",
+      "Storage": ""
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 570,
+      "name": "Dota 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/570/header.jpg?t=1682639497",
+    "minimum": {
+      "OS": "Windows 7 or newer",
+      "CPU": "Dual core from Intel or AMD at 2.8 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA GeForce 8600/9600GT, ATI/AMD Radeon HD2600/3600 DirectX: Version 11",
+      "Storage": "60 GB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 1,
+      "name": "League of Legends"
+    },
+    "image": "",
+    "minimum": {
+      "OS": "Win 7, 8, 10, 11",
+      "CPU": "Intel: Core i3-530 / AMD: A6-3650 / ARM: incompatível",
+      "GPU": "NVidia: GeForce 9600GT / AMD: HD 6570 / Intel: Intel HD 4600 Integrated Graphics",
+      "RAM": "2 GB RAM",
+      "Storage": "16 GB (HDD)"
+    },
+    "recommended": {
+      "OS": "Win 11",
+      "CPU": "Intel: Core i5-3300 / AMD: Ryze 3 1200 / ARM: incompatível",
+      "GPU": "NVidia: GeForce 560 / AMD: Radeon HD 6950 / Intel: Intel UHD 630 Integrated Graphics",
+      "RAM": "4 GB RAM",
+      "Storage": "16 GB (HDD)"
+    }
+  },
+  {
+    "app": {
+      "appid": 2,
+      "name": "Valorant"
+    },
+    "image": "",
+    "minimum": {
+      "OS": "Windows 10 (Build 17134+) 64-bit / Windows 11 64-bit",
+      "CPU": "Intel Core 2 Duo E8400 / AMD Athlon 200GE",
+      "GPU": "Intel HD 4000 / AMD Radeon R5 200",
+      "RAM": "4 GB de RAM",
+      "Storage": ""
+    },
+    "recommended": {
+      "OS": "Windows 10 (Build 17134+) 64-bit / Windows 11 64-bit",
+      "CPU": "Intel i3-4150 / AMD Ryzen 3 1200 ",
+      "GPU": "GeForce GT 730 / AMD Radeon R7 240",
+      "RAM": "4 GB de RAM",
+      "Storage": ""
+    }
+  },
+  {
+    "app": {
+      "appid": 3,
+      "name": "Fortnite"
+    },
+    "image": "",
+    "minimum": {
+      "OS": "Windows 10/11 64 bits",
+      "CPU": "Core i3-3225 3.3 GHz",
+      "GPU": "Intel HD 4000 / AMD Radeon Vega 8",
+      "RAM": "8 GB RAM",
+      "Storage": ""
+    },
+    "recommended": {
+      "OS": "Windows 10/11 64 bits",
+      "CPU": "Core i5-7300U 3.5 GHz, AMD Ryzen 3 3300U ou equivalente",
+      "GPU": " Nvidia GTX 960, AMD R9 280 ou GPU DX11 equivalente",
+      "RAM": "16 GB RAM",
+      "Storage": ""
+    }
+  },
+  {
+    "app": {
+      "appid": 1086940,
+      "name": "Baldur's Gate 3"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1086940/header.jpg?t=1692294127",
+    "minimum": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel I5 4690 / AMD FX 8350",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GTX 970 / RX 480 (4GB+ of VRAM) DirectX: Version 11",
+      "Storage": "150 GB available space SSD required"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel i7 8700K / AMD r5 3600",
+      "RAM": "16 GB RAM",
+      "GPU": "Nvidia 2060 Super / RX 5700 XT (8GB+ of VRAM) DirectX: Version 11",
+      "Storage": "150 GB available space SSD required"
+    }
+  },
+  {
+    "app": {
+      "appid": 1716740,
+      "name": "Starfield"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1716740/header.jpg?t=1694620799",
+    "minimum": {
+      "OS": "Windows 10 version 21H1 (10.0.19043)",
+      "CPU": "AMD Ryzen 5 2600X, Intel Core i7-6800K",
+      "RAM": "16 GB RAM",
+      "GPU": "AMD Radeon RX 5700, NVIDIA GeForce 1070 Ti",
+      "Storage": "125 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10/11 with updates",
+      "CPU": "AMD Ryzen 5 3600X, Intel i5-10600K",
+      "RAM": "16 GB RAM",
+      "GPU": "AMD Radeon RX 6800 XT, NVIDIA GeForce RTX 2080",
+      "Storage": "125 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 578080,
+      "name": "PUBG: BATTLEGROUNDS"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/578080/header.jpg?t=1694608943",
+    "minimum": {
+      "OS": "64-bit Windows 10",
+      "CPU": "Intel Core i5-4430 / AMD FX-6300",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 960 2GB / AMD Radeon R7 370 2GB DirectX: Version 11",
+      "Storage": "40 GB available space"
+    },
+    "recommended": {
+      "OS": "64-bit Windows 10",
+      "CPU": "Intel Core i5-6600K / AMD Ryzen 5 1600",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 580 4GB DirectX: Version 11",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1172470,
+      "name": "Apex Legends"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/header.jpg?t=1694114964",
+    "minimum": {
+      "OS": "64-bit Windows 7",
+      "CPU": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+      "RAM": "6 GB RAM",
+      "GPU": "AMD Radeon™ HD 7730, NVIDIA GeForce® GT 640 DirectX: Version 11",
+      "Storage": "56 GB available space ~3.8GB for 1 localized language"
+    },
+    "recommended": {
+      "OS": "64-bit Windows 7",
+      "CPU": "Ryzen 5 CPU or Equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970 DirectX: Version 11",
+      "Storage": "56 GB available space ~3.8GB for 1 localized language"
+    }
+  },
+  {
+    "app": {
+      "appid": 271590,
+      "name": "Grand Theft Auto V"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/271590/header.jpg?t=1678296348",
+    "minimum": {
+      "OS": "Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1",
+      "CPU": "Intel Core 2 Quad CPU Q6600 @ 2.40GHz (4 CPUs) / AMD Phenom 9850 Quad-Core Processor (4 CPUs) @ 2.5GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA 9800 GT 1GB / AMD HD 4870 1GB (DX 10, 10.1, 11)",
+      "Storage": "72 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64 Bit, Windows 8.1 64 Bit, Windows 8 64 Bit, Windows 7 64 Bit Service Pack 1",
+      "CPU": "Intel Core i5 3470 @ 3.2GHz (4 CPUs) / AMD X8 FX-8350 @ 4GHz (8 CPUs)",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 660 2GB / AMD HD 7870 2GB",
+      "Storage": "72 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 252490,
+      "name": "Rust"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/252490/header.jpg?t=1693652810",
+    "minimum": {
+      "OS": "Windows 10 64bit",
+      "CPU": "Intel Core i7-3770 / AMD FX-9590 or better",
+      "RAM": "10 GB RAM",
+      "GPU": "GTX 670 2GB / AMD R9 280 better DirectX: Version 11",
+      "Storage": "25 GB available space SSD is highly recommended or expect longer than average load times."
+    },
+    "recommended": {
+      "OS": "Windows 11 64bit",
+      "CPU": "Intel Core i7-4790K / AMD Ryzen 5 1600",
+      "RAM": "16 GB RAM",
+      "GPU": "GTX 980 / AMD R9 Fury DirectX: Version 12",
+      "Storage": "25 GB available space SSD Required"
+    }
+  },
+  {
+    "app": {
+      "appid": 440,
+      "name": "Team Fortress 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/440/header.jpg?t=1682961494",
+    "minimum": {
+      "OS": "Windows® 7 (32/64-bit)/Vista/XP",
+      "CPU": "1.7 GHz Processor or better",
+      "RAM": "512 MB RAM DirectX: Version 8.1 Storage: 15 GB available space",
+      "GPU": "",
+      "Storage": "15 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 7 (32/64-bit)",
+      "CPU": "Pentium 4 processor (3.0GHz, or better)",
+      "RAM": "1 GB RAM DirectX: Version 9.0c Storage: 15 GB available space",
+      "GPU": "",
+      "Storage": "15 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 359550,
+      "name": "Tom Clancy's Rainbow Six Siege"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/359550/header.jpg?t=1694635629",
+    "minimum": {
+      "OS": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+      "CPU": "Intel Core i3 560 @ 3.3 GHz or AMD Phenom II X4 945 @ 3.0 GHz",
+      "RAM": "6 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 460 or AMD Radeon HD 5870 (DirectX-11 compliant with 1GB of VRAM)",
+      "Storage": "61 GB available space"
+    },
+    "recommended": {
+      "OS": "Originally released for Windows 7, the game can be played on Windows 10 and Windows 11 OS",
+      "CPU": "Intel Core i5-2500K @ 3.3 GHz or better or AMD FX-8120 @ 3.1 Ghz or better",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 670 (or GTX 760 / GTX 960) or AMD Radeon HD 7970 (or R9 280x [2GB VRAM] / R9 380 / Fury X)",
+      "Storage": "61 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1085660,
+      "name": "Destiny 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1085660/header.jpg?t=1694626285",
+    "minimum": {
+      "OS": "Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)",
+      "CPU": "Intel® Core™ i3 3250 3.5 GHz or Intel Pentium G4560 3.5 GHz / AMD FX-4350 4.2 GHz",
+      "RAM": "6 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 660 2GB or GTX 1050 2GB / AMD Radeon HD 7850 2GB",
+      "Storage": "105 GB available space"
+    },
+    "recommended": {
+      "OS": "System Windows® 7 / Windows® 8.1 / Windows® 10 64-bit (latest Service Pack)",
+      "CPU": "Processor Intel® Core™ i5 2400 3.4 GHz or i5 7400 3.5 GHz / AMD Ryzen R5 1600X 3.6 GHz",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 970 4GB or GTX 1060 6GB / AMD R9 390 8GB Memory 8 GB RAM",
+      "Storage": "105 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 238960,
+      "name": "Path of Exile"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/238960/header.jpg?t=1694488422",
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "Quad core 2.6GHz x86-compatible",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 650 Ti or ATI Radeon™ HD 7850 DirectX: Version 11",
+      "Storage": "40 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10",
+      "CPU": "Quad core 3.2GHz x64-compatible",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1050 Ti or ATI Radeon™ RX560 DirectX: Version 11",
+      "Storage": "40 GB available space Solid state storage is recommended"
+    }
+  },
+  {
+    "app": {
+      "appid": 1938090,
+      "name": "Call of Duty®"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1938090/header.jpg?t=1694122677",
+    "minimum": {
+      "OS": "Windows® 10 64 Bit (latest update)",
+      "CPU": "Intel® Core™ i3-6100 / Core™ i5-2500K or AMD Ryzen™ 3 1200",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 960 or AMD Radeon™ RX 470 - DirectX 12.0 compatible system DirectX: Version 12",
+      "Storage": "125 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 64 Bit (latest update) or Windows® 11 64 Bit (latest update)",
+      "CPU": "Intel® Core™ i5-6600K / Core™ i7-4770 or AMD Ryzen™ 5 1400",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1060 or AMD Radeon™ RX 580 - DirectX 12.0 compatible system or Intel® Arc™ A770 DirectX: Version 12",
+      "Storage": "125 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1599340,
+      "name": "Lost Ark"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1599340/header.jpg?t=1694622097",
+    "minimum": {
+      "OS": "Windows 10 (64-bit only)",
+      "CPU": "Intel i3 or AMD Ryzen 3",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 460 / AMD HD6850 DirectX: Version 11",
+      "Storage": "60 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 (64-bit only)",
+      "CPU": "Intel i5 or AMD Ryzen 5",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1050 / AMD Radeon RX560 2G DirectX: Version 11",
+      "Storage": "60 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 236390,
+      "name": "War Thunder"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/236390/header.jpg?t=1689771864",
+    "minimum": {
+      "OS": "Windows 7 SP1/8/10 (64bit)",
+      "CPU": "Dual-Core 2.2 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "DirectX 10.1 level video card: AMD Radeon 77XX / NVIDIA GeForce GTX 660. DirectX: Version 11",
+      "Storage": "17 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10/11 (64bit)",
+      "CPU": "Intel Core i5 or Ryzen 5 3600 or better",
+      "RAM": "16 GB RAM",
+      "GPU": "DirectX 11 level video card or higher and drivers: Nvidia GeForce 1060 and higher, Radeon RX 570 and higher DirectX: Version 12",
+      "Storage": "95 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 304930,
+      "name": "Unturned"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/304930/header.jpg?t=1688148667",
+    "minimum": {
+      "OS": "Windows 7 SP1+",
+      "CPU": "3 GHz",
+      "RAM": "8 GB RAM DirectX: Version 10 Storage: 4 GB available space",
+      "GPU": "",
+      "Storage": "4 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "4 GHz",
+      "RAM": "16 GB RAM DirectX: Version 11 Storage: 6 GB available space",
+      "GPU": "",
+      "Storage": "6 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 221100,
+      "name": "DayZ"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/221100/header.jpg?t=1674143992",
+    "minimum": {
+      "OS": "Windows 7/8.1 64-bit",
+      "CPU": "Intel Core i5-4430",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 760 or AMD R9 270X DirectX: Version 11",
+      "Storage": "25 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel Core i5-6600K or AMD R5 1600X",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1060 or AMD RX 580 DirectX: Version 11",
+      "Storage": "30 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 431960,
+      "name": "Wallpaper Engine"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/431960/header.jpg?t=1665921297",
+    "minimum": {
+      "OS": "Windows 7 (with Aero), 8.1, 10, 11",
+      "CPU": "1.66 GHz Intel i5 or equivalent",
+      "RAM": "1024 MB RAM",
+      "GPU": "HD Graphics 4000 or above DirectX: Version 10",
+      "Storage": "512 MB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10, Windows 11",
+      "CPU": "2.0 GHz Intel i7 or equivalent",
+      "RAM": "2048 MB RAM",
+      "GPU": "NVIDIA GeForce GTX 660, AMD HD7870, 2 GB VRAM or above DirectX: Version 11",
+      "Storage": "1024 MB available space Mobile App requires Android 8.1 or newer"
+    }
+  },
+  {
+    "app": {
+      "appid": 252950,
+      "name": "Rocket League"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/252950/header.jpg?t=1694044504",
+    "minimum": {
+      "OS": "Windows 7 (64 bit) or Newer (64 bit) Windows OS",
+      "CPU": "2.5 GHz Dual core",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA GeForce 760, AMD Radeon R7 270X, or better DirectX: Version 11",
+      "Storage": "20 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7 (64 bit) or Newer (64 bit) Windows OS",
+      "CPU": "3.0+ GHz Quad core",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1060, AMD Radeon RX 470, or better DirectX: Version 11",
+      "Storage": "20 GB available space Gamepad or Controller Recommended"
+    }
+  },
+  {
+    "app": {
+      "appid": 381210,
+      "name": "Dead by Daylight"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/381210/header.jpg?t=1694008105",
+    "minimum": {
+      "OS": "Windows 10 64-bit Operating System",
+      "CPU": "Intel Core i3-4170 or AMD FX-8120",
+      "RAM": "8 GB RAM",
+      "GPU": "DX11 Compatible GeForce GTX 460 1GB or AMD HD 6850 1GB DirectX: Version 11",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit Operating System",
+      "CPU": "Intel Core i3-4170 or AMD FX-8300 or higher",
+      "RAM": "8 GB RAM",
+      "GPU": "DX11 Compatible GeForce 760 or AMD HD 8800 or higher with 4GB of RAM DirectX: Version 11",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 289070,
+      "name": "Sid Meier's Civilization VI"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/289070/header.jpg?t=1680898825",
+    "minimum": {
+      "OS": "Windows 7x64 / Windows 8.1x64 / Windows 10x64",
+      "CPU": "Intel Core i3 2.5 Ghz or AMD Phenom II 2.6 Ghz or greater",
+      "RAM": "4 GB RAM",
+      "GPU": "1 GB & AMD; AMD 5570 or nVidia 450 or Intel Integrated Graphics 530 DirectX: Version 11",
+      "Storage": "17 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7x64 / Windows 8.1x64 / Windows 10x64",
+      "CPU": "Fourth Generation Intel Core i5 2.5 Ghz or AMD FX8350 4.0 Ghz or greater",
+      "RAM": "8 GB RAM",
+      "GPU": "2GB & AMD; AMD 7970 or nVidia 770 or greater DirectX: Version 11",
+      "Storage": "23 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1811260,
+      "name": "EA SPORTS™ FIFA 23"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1811260/header.jpg?t=1691622242",
+    "minimum": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel Core i5 6600k or AMD Ryzen 5 1600",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1050 Ti or AMD Radeon RX 570 DirectX: Version 12",
+      "Storage": "100 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel Core i7 6700 or AMD Ryzen 7 2700X",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1660 or AMD Radeon RX 5600 XT DirectX: Version 12",
+      "Storage": "100 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 227300,
+      "name": "Euro Truck Simulator 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/227300/header.jpg?t=1691582130",
+    "minimum": {
+      "OS": "Windows 7",
+      "CPU": "Dual core CPU 2.4 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "GeForce GTS 450-class (Intel HD 4000) Hard Drive: 12 GB available space",
+      "Storage": "12 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7/8.1/10 64-bit",
+      "CPU": "Quad core CPU 3.0 GHz",
+      "RAM": "6 GB RAM",
+      "GPU": "GeForce GTX 760-class (2 GB) Hard Drive: 12 GB available space",
+      "Storage": "12 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 230410,
+      "name": "Warframe"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/230410/header.jpg?t=1693084453",
+    "minimum": {
+      "OS": "Windows 7 64-Bit (32-bit not supported)",
+      "CPU": "Intel Core i7 860, Intel Core i5 750, or AMD FX-4100 (SSE 4.2 support required)",
+      "RAM": "4 GB RAM Storage",
+      "GPU": "DirectX 11+ capable Graphics Card",
+      "Storage": "50 GB available HD space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 346110,
+      "name": "ARK: Survival Evolved"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/346110/header.jpg?t=1669254188",
+    "minimum": {
+      "OS": "Windows 7/8.1/10 (64-bit versions)",
+      "CPU": "Intel Core i5-2400/AMD FX-8320 or better",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 670 2GB/AMD Radeon HD 7870 2GB or better DirectX: Version 10",
+      "Storage": "60 GB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 394360,
+      "name": "Hearts of Iron IV"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/394360/header.jpg?t=1694091142",
+    "minimum": {
+      "OS": "Windows® 7 64 Bit | Windows® 8.1 64 Bit | Windows® 10 Home 64 Bit",
+      "CPU": "Intel® Core™ i5 750 | AMD® FX 4300",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 470 (1.28GB) | AMD® HD 5850 (1GB) | Intel Iris Xe G7 (Tiger Lake) | AMD® Radeon™ RX Vega 11 | Steam Deck DirectX: Version 9.0c",
+      "Storage": "2 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 Home 64 bit",
+      "CPU": "Intel® Core™ i5 2500K | AMD® Ryzen 3 2200G",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 570 (1.28GB) | AMD® Radeon™ HD 7970 (3GB) | Intel Iris Xe G7 (Tiger Lake) DirectX: Version 9.0c",
+      "Storage": "2 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 739630,
+      "name": "Phasmophobia"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/739630/header_alt_assets_0.jpg?t=1693954450",
+    "minimum": {
+      "OS": "Windows 10 64Bit",
+      "CPU": "Intel Core i5-4590 / AMD Ryzen 5 2600",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 970 / AMD Radeon R9 390 DirectX: Version 11",
+      "Storage": "21 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64Bit",
+      "CPU": "Intel Core i5-10600 / AMD Ryzen 5 3600",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA RTX 2060 / AMD Radeon RX 5700 DirectX: Version 11",
+      "Storage": "21 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1623660,
+      "name": "MIR4"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1623660/header.jpg?t=1659502391",
+    "minimum": {
+      "OS": "Windows 8.1 64-bit",
+      "CPU": "Intel® Core™ i5-5200U 2.2Hz",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia GTX 650 / AMD Radeon 530 DirectX: Version 11",
+      "Storage": "10 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel® Core™ i5-6200U 2.3Hz",
+      "RAM": "16 GB RAM",
+      "GPU": "Nvidia GTX 950 / AMD Radeon 560 DirectX: Version 11",
+      "Storage": "10 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 218620,
+      "name": "PAYDAY 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/218620/header.jpg?t=1692805068",
+    "minimum": {
+      "OS": "Windows 7",
+      "CPU": "2 GHz Intel Dual Core Processor",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia & AMD (512MB VRAM) DirectX: Version 9.0c",
+      "Storage": "83 GB available space SteamVR. Standing or Room Scale"
+    },
+    "recommended": {
+      "OS": "Windows 10",
+      "CPU": "2.3 GHz Intel Quad Core Processor",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia & AMD (1GB VRAM) DirectX: Version 9.0c",
+      "Storage": "83 GB available space SteamVR. Standing or Room Scale"
+    }
+  },
+  {
+    "app": {
+      "appid": 1174180,
+      "name": "Red Dead Redemption 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1174180/header.jpg?t=1671485009",
+    "minimum": {
+      "OS": "Windows 10 - April 2018 Update (v1803)",
+      "CPU": "Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+      "RAM": "12 GB RAM",
+      "GPU": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+      "Storage": "150 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 - April 2018 Update (v1803)",
+      "CPU": "Intel® Core™ i7-4770K / AMD Ryzen 5 1500X",
+      "RAM": "12 GB RAM",
+      "GPU": "Nvidia GeForce GTX 1060 6GB / AMD Radeon RX 480 4GB",
+      "Storage": "150 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 413150,
+      "name": "Stardew Valley"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/413150/header.jpg?t=1666917466",
+    "minimum": {
+      "OS": "Windows Vista or greater",
+      "CPU": "2 Ghz",
+      "RAM": "2 GB RAM",
+      "GPU": "256 mb video memory, shader model 3.0+ DirectX: Version 10",
+      "Storage": "500 MB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 1222670,
+      "name": "The Sims™ 4"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1222670/header.jpg?t=1694535880",
+    "minimum": {
+      "OS": "64 Bit Required. Windows 10",
+      "CPU": "3.3 GHz Intel Core i3-3220 (2 cores, 4 threads), AMD Ryzen 3 1200 3.1 GHz (4 cores) or better",
+      "RAM": "4 GB RAM",
+      "GPU": "128 MB of Video RAM and support for Pixel Shader 3.0. Supported Video Cards: NVIDIA GeForce 6600 or better, ATI Radeon X1300 or better, Intel GMA X4500 or better DirectX: Version 11",
+      "Storage": "26 GB available space"
+    },
+    "recommended": {
+      "OS": "64 Bit Windows 10",
+      "CPU": "Intel core i5 (4 cores), AMD Ryzen 5 or better",
+      "RAM": "8 GB RAM",
+      "GPU": "1 GB of Video RAM, NVIDIA GTX 650, AMD Radeon HD 7750, or better DirectX: Version 11",
+      "Storage": "51 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 105600,
+      "name": "Terraria"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/105600/header.jpg?t=1666290860",
+    "minimum": {
+      "OS": "Windows Xp, Vista, 7, 8/8.1, 10",
+      "CPU": "2.0 Ghz",
+      "RAM": "2.5GB Hard Disk Space: 200MB Video Card: 128mb Video Memory, capable of Shader Model 2.0+ DirectX®: 9.0c or Greater",
+      "GPU": "128mb Video Memory, capable of Shader Model 2.0+",
+      "Storage": ""
+    },
+    "recommended": {
+      "OS": "Windows 7, 8/8.1, 10",
+      "CPU": "Dual Core 3.0 Ghz",
+      "RAM": "4GB Hard Disk Space: 200MB Video Card: 256mb Video Memory, capable of Shader Model 2.0+ DirectX®: 9.0c or Greater",
+      "GPU": "256mb Video Memory, capable of Shader Model 2.0+",
+      "Storage": ""
+    }
+  },
+  {
+    "app": {
+      "appid": 251570,
+      "name": "7 Days to Die"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/251570/header.jpg?t=1692918569",
+    "minimum": {
+      "OS": "Windows 7 or higher (64-bit)",
+      "CPU": "2.8 Ghz Quad Core CPU",
+      "RAM": "8 GB RAM",
+      "GPU": "2 GB Dedicated Memory DirectX: Version 11",
+      "Storage": "15 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7 or higher (64-bit)",
+      "CPU": "3.2 Ghz Quad Core CPU or faster",
+      "RAM": "12 GB RAM",
+      "GPU": "4 GB Dedicated Memory DirectX: Version 11",
+      "Storage": "15 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1248130,
+      "name": "Farming Simulator 22"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1248130/header.jpg?t=1680158089",
+    "minimum": {
+      "OS": "Windows 10 Home (x64)",
+      "CPU": "Intel Core i5-3330 or AMD FX-8320 or better",
+      "RAM": "8 GB RAM",
+      "GPU": "GeForce GTX 660 or AMD Radeon R7 265 or better (min 2GB VRAM) DirectX: Version 11",
+      "Storage": "35 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 Home (x64)",
+      "CPU": "Intel Core i5-5675C or AMD Ryzen 5 1600 or better",
+      "RAM": "8 GB RAM",
+      "GPU": "GeForce GTX 1060 or Radeon RX 570 or better (min 6GB VRAM) DirectX: Version 11",
+      "Storage": "35 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 108600,
+      "name": "Project Zomboid"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/108600/header.jpg?t=1691508011",
+    "minimum": {
+      "OS": "Windows 10, 64 Bit 64bit OS required",
+      "CPU": "Intel 2.77GHz Quad-core",
+      "RAM": "8 Gb Ram",
+      "GPU": "Dedicated graphics card with 2 GB of RAM minimum, OpenGL 2.1 and GLSL 1.2 support (generally 2012 or newer)",
+      "Storage": "5 gig"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 39210,
+      "name": "FINAL FANTASY XIV Online"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/39210/header.jpg?t=1693964220",
+    "minimum": {
+      "OS": "Windows® 10 64 bit, Windows® 11 64 bit",
+      "CPU": "Intel® Core™i5 2.4GHz or higher",
+      "RAM": "4 GB RAM",
+      "GPU": "1280 x 720: NVIDIA® Geforce® GTX750 or higher, AMD Radeon™ R7 260X or higher DirectX: Version 11",
+      "Storage": "80 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 64 bit, Windows® 11 64 bit",
+      "CPU": "Intel® Core™i7 3GHz or higher",
+      "RAM": "8 GB RAM",
+      "GPU": "1920 x 1080: NVIDIA® Geforce® GTX970 or higher AMD Radeon™ RX 480 or higher DirectX: Version 11",
+      "Storage": "80 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1203220,
+      "name": "NARAKA: BLADEPOINT"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1203220/header.jpg?t=1691744924",
+    "minimum": {
+      "OS": "Windows 7 64-bit or newer",
+      "CPU": "Intel i5 4th generation or AMD FX 6300 or equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 750TI or equivalent DirectX: Version 11",
+      "Storage": "35 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel i7 7th generation or equivalent",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1060 6G or equivalent DirectX: Version 11",
+      "Storage": "35 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 892970,
+      "name": "Valheim"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/892970/header_alt_assets_2.jpg?t=1692705902",
+    "minimum": {
+      "OS": "Windows 7 or later",
+      "CPU": "2.6 GHz Quad Core or similar",
+      "RAM": "8 GB RAM",
+      "GPU": "GeForce GTX 950 or Radeon HD 7970 DirectX: Version 11",
+      "Storage": "1 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7 or later",
+      "CPU": "i5 3GHz or Ryzen 5 3GHz",
+      "RAM": "16 GB RAM",
+      "GPU": "GeForce GTX 1060 or Radeon RX 580 DirectX: Version 11",
+      "Storage": "1 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 275850,
+      "name": "No Man's Sky"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/275850/header.jpg?t=1692895292",
+    "minimum": {
+      "OS": "Windows 10/11 (64-bit versions)",
+      "CPU": "Intel Core i3",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GTX 1060 3GB, AMD RX 470 4GB, Intel UHD graphics 630",
+      "Storage": "15 GB available space SteamVR"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 489830,
+      "name": "The Elder Scrolls V: Skyrim Special Edition"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/489830/header.jpg?t=1650909796",
+    "minimum": {
+      "OS": "Windows 7/8.1/10 (64-bit Version)",
+      "CPU": "Intel i5-750/AMD Phenom II X4-945",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 470 1GB /AMD HD 7870 2GB",
+      "Storage": "12 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7/8.1/10 (64-bit Version)",
+      "CPU": "Intel i5-2400/AMD FX-8320",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 780 3GB /AMD R9 290 4GB",
+      "Storage": "12 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1245620,
+      "name": "ELDEN RING"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1245620/header.jpg?t=1683618443",
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "INTEL CORE I5-8400 or AMD RYZEN 3 3300X",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA GEFORCE GTX 1060 3 GB or AMD RADEON RX 580 4 GB DirectX: Version 12",
+      "Storage": "60 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10/11",
+      "CPU": "INTEL CORE I7-8700K or AMD RYZEN 5 3600X",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GEFORCE GTX 1070 8 GB or AMD RADEON RX VEGA 56 8 GB DirectX: Version 12",
+      "Storage": "60 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 550,
+      "name": "Left 4 Dead 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/550/header.jpg?t=1675801903",
+    "minimum": {
+      "OS": "Windows® 7 32/64-bit / Vista 32/64 / XP",
+      "CPU": "Pentium 4 3.0GHz",
+      "RAM": "2 GB RAM",
+      "GPU": "Video card with 128 MB, Shader model 2.0. ATI X800, NVidia 6600 or better DirectX: Version 9.0c",
+      "Storage": "13 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 7 32/64-bit / Vista 32/64 / XP",
+      "CPU": "Intel core 2 duo 2.4GHz",
+      "RAM": "2 GB RAM",
+      "GPU": "Video Card Shader model 3.0. NVidia 7600, ATI X1600 or better DirectX: Version 9.0c",
+      "Storage": "13 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 582660,
+      "name": "Black Desert"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/582660/header.jpg?t=1688593123",
+    "minimum": {
+      "OS": "Windows 10 (64-bit)",
+      "CPU": "Intel Core i3-530 2.9 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "GTS 250, GeForce 9800 GTX, Radeon HD 3870 X2",
+      "Storage": "39 GB available space Screen Resolution: 1280x720"
+    },
+    "recommended": {
+      "OS": "Windows 10 (64-bit)",
+      "CPU": "Intel Core i5-650 3.2GHz",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 970, AMD RX 480",
+      "Storage": "39 GB available space Screen Resolution: 1920x1080 or higher"
+    }
+  },
+  {
+    "app": {
+      "appid": 4000,
+      "name": "Garry's Mod"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/4000/header.jpg?t=1663621793",
+    "minimum": {
+      "OS": "Windows® XP/Vista",
+      "CPU": "2 GHz Processor or better",
+      "RAM": "4 GB RAM",
+      "GPU": "512MB dedicated VRAM or better DirectX: Version 9.0c",
+      "Storage": "5 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 7/8/8.1/10",
+      "CPU": "2.5 GHz Processor or better",
+      "RAM": "8 GB RAM",
+      "GPU": "1GB dedicated VRAM or better DirectX: Version 9.0c",
+      "Storage": "20 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 438100,
+      "name": "VRChat"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/438100/header.jpg?t=1693940129",
+    "minimum": {
+      "OS": "Windows 8.1, Windows 10",
+      "CPU": "Intel® i5-4590 / AMD FX 8350 equivalent or greater",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA GeForce® GTX 970 / AMD Radeon™ R9 290 equivalent or greater DirectX: Version 11",
+      "Storage": "1 GB available space SteamVR"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 322170,
+      "name": "Geometry Dash"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/322170/header.jpg?t=1624472273",
+    "minimum": {
+      "OS": "Windows XP",
+      "CPU": "2.0+ GHz",
+      "RAM": "512 MB RAM",
+      "GPU": "OpenGL 2.0 support",
+      "Storage": "100 MB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 1142710,
+      "name": "Total War: WARHAMMER III"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1142710/header.jpg?t=1691504594",
+    "minimum": {
+      "OS": "Windows 7 64-bit",
+      "CPU": "Intel i3/Ryzen 3 series",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia GTX 900/AMD RX 400 series | Intel Iris Xe Graphics DirectX: Version 11",
+      "Storage": "120 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel i5/Ryzen 5 series",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GeForce GTX 1660 Ti/AMD RX 5600-XT DirectX: Version 11",
+      "Storage": "120 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1449850,
+      "name": "Yu-Gi-Oh!  Master Duel"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1449850/header.jpg?t=1692175666",
+    "minimum": {
+      "OS": "Windows 10 Home (64bit) latest revision",
+      "CPU": "Intel Core i5-7300U",
+      "RAM": "8 GB RAM",
+      "GPU": "Intel(R) HD Graphics 620 DirectX: Version 11",
+      "Storage": "16 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 Home (64bit) latest revision",
+      "CPU": "Intel Core i5-9400F",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1650 DirectX: Version 11",
+      "Storage": "16 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1063730,
+      "name": "New World"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1063730/header.jpg?t=1693407656",
+    "minimum": {
+      "OS": "Windows® 10/11 64-bit",
+      "CPU": "Intel® Core™ i5-10500 @ 3.10GHz / AMD Ryzen 3 3300X",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1060 3GB / AMD Radeon RX 590 DirectX: Version 11",
+      "Storage": "100 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10/11 64-bit",
+      "CPU": "Intel® Core™ i7-10700K @ 3.80GHz / AMD Ryzen 5 3600X",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA® GeForce® RTX 2060 / AMD Radeon RX 6600 DirectX: Version 12",
+      "Storage": "100 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1888160,
+      "name": "ARMORED CORE™ VI FIRES OF RUBICON™"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1888160/header.jpg?t=1694105482",
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core i7-4790K | Intel Core i5-8400 or AMD Ryzen 7 1800X | AMD Ryzen 5 2600",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1650, 4 GB or AMD Radeon RX 480, 4 GB DirectX: Version 12",
+      "Storage": "60 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10/11",
+      "CPU": "Intel Core i7-7700 | Intel Core i5-10400 or AMD Ryzen 7 2700X | AMD Ryzen 5 3600",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1060, 6GB or AMD Radeon RX 590, 8GB or Intel Arc A750, 8GB DirectX: Version 12",
+      "Storage": "60 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 236850,
+      "name": "Europa Universalis IV"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/236850/header.jpg?t=1690890464",
+    "minimum": {
+      "OS": "Windows® 8.1 64 bit",
+      "CPU": "Intel® Core™ i3-2105 / AMD® FX 4300",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 460 / AMD® Radeon™ HD 5850 Video Memory: 1 GB RAM DirectX®: 9.0c",
+      "Storage": "6 GB HD space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 Home 64 bit",
+      "CPU": "Intel® Core™ i3 3240 / AMD® FX 8120",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 560 Ti Video Memory: 1 GB RAM DirectX®: 9.0c",
+      "Storage": "6 GB HD space"
+    }
+  },
+  {
+    "app": {
+      "appid": 294100,
+      "name": "RimWorld"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/294100/header.jpg?t=1676391313",
+    "minimum": {
+      "OS": "Windows 7",
+      "CPU": "Core 2 Duo",
+      "RAM": "4 GB RAM",
+      "GPU": "Intel HD Graphics 4000 or other shader model 4.0",
+      "Storage": "1 GB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 291550,
+      "name": "Brawlhalla"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/291550/header.jpg?t=1694011382",
+    "minimum": {
+      "OS": "",
+      "CPU": "",
+      "RAM": "2 GB RAM Storage: 800 MB available space",
+      "GPU": "",
+      "Storage": "800 MB available space"
+    },
+    "recommended": {
+      "OS": "",
+      "CPU": "",
+      "RAM": "4 GB RAM Storage: 2 GB available space",
+      "GPU": "",
+      "Storage": "2 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 8930,
+      "name": "Sid Meier's Civilization V"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/8930/header.jpg?t=1579731804",
+    "minimum": {
+      "OS": "Windows® Vista SP2/ Windows® 7",
+      "CPU": "Intel Core 2 Duo 1.8 GHz or AMD Athlon X2 64 2.0 GHz",
+      "RAM": "2GB RAM",
+      "GPU": "256 MB ATI HD2600 XT or better, 256 MB nVidia 7900 GS or better, or Core i3 or better integrated graphics DirectX®: DirectX® version 9.0c",
+      "Storage": "8 GB Free"
+    },
+    "recommended": {
+      "OS": "Windows® Vista SP2/ Windows® 7",
+      "CPU": "1.8 GHz Quad Core CPU",
+      "RAM": "4 GB RAM",
+      "GPU": "512 MB ATI 4800 series or better, 512 MB nVidia 9800 series or better DirectX®: DirectX® version 11",
+      "Storage": "8 GB Free"
+    }
+  },
+  {
+    "app": {
+      "appid": 813780,
+      "name": "Age of Empires II: Definitive Edition"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/813780/header.jpg?t=1688658568",
+    "minimum": {
+      "OS": "Windows 10 64bit",
+      "CPU": "Intel Core 2 Duo or AMD Athlon 64x2 5600+",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA® GeForce® GT 420 or ATI™ Radeon™ HD 6850 or Intel® HD Graphics 4000 or better with 2 GB VRAM DirectX: Version 11",
+      "Storage": "15 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64bit",
+      "CPU": "2.4 Ghz i5 or greater or AMD equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia® GTX 650 or AMD HD 5850 or better DirectX: Version 11",
+      "Storage": "15 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 377160,
+      "name": "Fallout 4"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/377160/header.jpg?t=1650909928",
+    "minimum": {
+      "OS": "Windows 7/8/10 (64-bit OS required)",
+      "CPU": "Intel Core i5-2300 2.8 GHz/AMD Phenom II X4 945 3.0 GHz or equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 550 Ti 2GB/AMD Radeon HD 7870 2GB or equivalent",
+      "Storage": "30 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7/8/10 (64-bit OS required)",
+      "CPU": "Intel Core i7 4790 3.6 GHz/AMD FX-9590 4.7 GHz or equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GTX 780 3GB/AMD Radeon R9 290X 4GB or equivalent",
+      "Storage": "30 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 594650,
+      "name": "Hunt: Showdown"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/594650/header.jpg?t=1688573408",
+    "minimum": {
+      "OS": "Windows 10 64 bit",
+      "CPU": "Intel i5-4590 @ 3.3GHz (4th Generation) or AMD Ryzen 3 1200",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 660 TI or AMD Radeon R7 370, with a minimum of 3GB of VRAM DirectX: Version 11",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64 bit",
+      "CPU": "Intel i5-6600 @ 3.3Ghz (6th Generation) or AMD Ryzen 5 1400",
+      "RAM": "12 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 970 or AMD Radeon R9 390X, with a minimum of 4GB of VRAM DirectX: Version 11",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 2357570,
+      "name": "Overwatch® 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/2357570/header_alt_assets_0.jpg?t=1694109584",
+    "minimum": {
+      "OS": "Windows® 10 64-bit (latest Service Pack)",
+      "CPU": "Intel® Core™ i3 or AMD Phenom™ X3 8650",
+      "RAM": "6 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 600 series, AMD Radeon™ HD 7000 series DirectX: Version 11",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 64-bit (latest Service Pack)",
+      "CPU": "Intel® Core™ i7 or AMD Ryzen™ 5",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1060/ GeForce® GTX 1650 or AMD R9 380/AMD RX 6400 or Intel® Arc™ A770 DirectX: Version 11",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 250900,
+      "name": "The Binding of Isaac: Rebirth"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/250900/header.jpg?t=1617174663",
+    "minimum": {
+      "OS": "XP",
+      "CPU": "Core 2 Duo",
+      "RAM": "2 GB RAM",
+      "GPU": "Discreet video card",
+      "Storage": "449 MB available space"
+    },
+    "recommended": {
+      "OS": "Windows 8 / 7 / Vista / XP",
+      "CPU": "2.4 GHz Quad Core 2.0 (or higher)",
+      "RAM": "8 GB RAM",
+      "GPU": "Intel HD Graphics 4000 and higher, ATI Radeon HD-Series 4650 and higher, Nvidia GeForce 2xx-Series and up",
+      "Storage": "449 MB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 427520,
+      "name": "Factorio"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/427520/header.jpg?t=1694021968",
+    "minimum": {
+      "OS": "Windows 10, 8, 7, Vista (64 Bit)",
+      "CPU": "Dual core 3Ghz+",
+      "RAM": "4 GB RAM",
+      "GPU": "DirectX 10.1 capable GPU with 512 MB VRAM - GeForce GTX 260, Radeon HD 4850 or Intel HD Graphics 5500 DirectX: Version 11",
+      "Storage": "3 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10, 8, 7 (64 Bit)",
+      "CPU": "Quad core 3Ghz+",
+      "RAM": "8 GB RAM",
+      "GPU": "DirectX 11 capable GPU with 2 GB VRAM - GeForce GTX 750 Ti, Radeon R7 360 DirectX: Version 11",
+      "Storage": "3 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 255710,
+      "name": "Cities: Skylines"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/255710/header.jpg?t=1692879552",
+    "minimum": {
+      "OS": "Windows® 7 64 Bit | Windows® 8.1 64 Bit | Windows® 10 Home 64 Bit",
+      "CPU": "Intel® Core™ I7 930 | AMD® FX 6350",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTS 450 (1 GB) | AMD® R7 250 (2 GB) | Intel Iris Xe G7 (Tiger Lake) DirectX: Version 9.0c",
+      "Storage": "4 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 Home 64 bit",
+      "CPU": "Intel® Core™ I7 2700K | AMD® Ryzen 7 2700X",
+      "RAM": "16 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 580 (1.5 GB) | AMD® Radeon™ RX 560 (4 GB) DirectX: Version 11",
+      "Storage": "4 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1091500,
+      "name": "Cyberpunk 2077"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/header.jpg?t=1693591602",
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core i5-3570K or AMD FX-8310",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 970 or AMD Radeon RX 470 DirectX: Version 12",
+      "Storage": "70 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core i7-4790 or AMD Ryzen 3 3200G",
+      "RAM": "12 GB RAM",
+      "GPU": "GTX 1060 6GB / GTX 1660 Super or Radeon RX 590 DirectX: Version 12",
+      "Storage": "70 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 107410,
+      "name": "Arma 3"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/107410/header.jpg?t=1690361841",
+    "minimum": {
+      "OS": "Windows 7 SP1 (64bit)",
+      "CPU": "Intel Dual-Core 2.4 GHz or AMD Dual-Core Athlon 2.5 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA GeForce 9800GT / AMD Radeon HD 5670 / Intel HD Graphics 4000 with 512 MB VRAM DirectX®: 10",
+      "Storage": "45 GB free space"
+    },
+    "recommended": {
+      "OS": "Windows 7 / 8 / 10 (64bit)",
+      "CPU": "Intel Core i5-4460 or AMD FX 4300 or better",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 660 / AMD Radeon HD 7800 Series with 2 GB VRAM DirectX®: 11",
+      "Storage": "70 GB free space, SSD / Hybrid HDD / SSHD storage"
+    }
+  },
+  {
+    "app": {
+      "appid": 261550,
+      "name": "Mount & Blade II: Bannerlord"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/261550/header.jpg?t=1671213711",
+    "minimum": {
+      "OS": "Windows 7 (64-bit only)",
+      "CPU": "Intel® Core™ i3-8100 / AMD Ryzen™ 3 1200",
+      "RAM": "6 GB RAM",
+      "GPU": "Intel® UHD Graphics 630 / NVIDIA® GeForce® GTX 660 2GB / AMD Radeon™ HD 7850 2GB",
+      "Storage": "60 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 (64-bit only)",
+      "CPU": "Intel® Core™ i5-9600K / AMD Ryzen™ 5 3600X",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1060 3GB / AMD Radeon™ RX 580",
+      "Storage": "60 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 306130,
+      "name": "The Elder Scrolls Online"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/306130/header.jpg?t=1694609152",
+    "minimum": {
+      "OS": "Windows 7 64-bit",
+      "CPU": "Intel® Core i3 540 or AMD A6-3620 or higher",
+      "RAM": "3 GB RAM",
+      "GPU": "Direct X 11.0 compliant video card with 1GB RAM (NVidia GeForce 460 or AMD Radeon 6850) DirectX: Version 11",
+      "Storage": "95 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7/Windows 8.1 64-bit",
+      "CPU": "Intel® Core i5 2300 or AMD FX4350",
+      "RAM": "8 GB RAM",
+      "GPU": "Direct X 11.0 compliant video card with 2GB RAM (NVIDIA® GeForce® GTX 750 or AMD Radeon™ HD 7850) or higher DirectX: Version 11",
+      "Storage": "95 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1158310,
+      "name": "Crusader Kings III"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1158310/header.jpg?t=1692714098",
+    "minimum": {
+      "OS": "Windows® 8.1 64 bit / Windows® 10 Home 64 bit",
+      "CPU": "Intel® Core™ i3-2120 / AMD® FX 6350",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 660 (2GB) / AMD® Radeon™ HD 7870 (2GB) / Intel® Iris Pro™ 580 / Intel® Iris® Plus G7 / AMD® Radeon™ Vega 11",
+      "Storage": "8 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 Home 64 bit",
+      "CPU": "Intel® Core™ i5-4670K / AMD® Ryzen™ 5 2400G",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 1650 (4GB) / AMD® Radeon™ R9 390X (8GB)",
+      "Storage": "8 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 960090,
+      "name": "Bloons TD 6"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/960090/header.jpg?t=1689560104",
+    "minimum": {
+      "OS": "Windows 10 (64bit)",
+      "CPU": "1.5Ghz or better (x86-64)",
+      "RAM": "4096 MB RAM",
+      "GPU": "OpenGL 2.0 compatible, ATI, Nvidia or Intel HD",
+      "Storage": "2048 MB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 (64bit)",
+      "CPU": "2Ghz or better (x86-64)",
+      "RAM": "8192 MB RAM",
+      "GPU": "OpenGL 2.0 compatible, ATI, Nvidia or Intel HD",
+      "Storage": "4096 MB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 386360,
+      "name": "SMITE"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/386360/header.jpg?t=1694519358",
+    "minimum": {
+      "OS": "Windows 7 64-bit or newer",
+      "CPU": "Core 2 Duo 2.4 GHz or Athlon X2 2.7 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia GeForce 8800 GT",
+      "Storage": "30 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 8/10 64-bit (latest Service Pack)",
+      "CPU": "Intel Core i5 or AMD Phenom II X3, 2.8 GHz",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia GeForce GTX 660 or ATI Radeon HD 7950",
+      "Storage": "30 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 281990,
+      "name": "Stellaris"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/281990/header.jpg?t=1693234060",
+    "minimum": {
+      "OS": "Windows® 7 SP1 64 Bit",
+      "CPU": "Intel® iCore™ i3-530 or AMD® FX-6350",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 460 or AMD® ATI Radeon™ HD 5870 (1GB VRAM), or AMD® Radeon™ RX Vega 11 or Intel® HD Graphics 4600 DirectX: Version 9.0c",
+      "Storage": "10 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows® 10 Home 64 Bit",
+      "CPU": "Intel® iCore™ i5-3570K or AMD® Ryzen™ 5 2400G",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia® GeForce™ GTX 560 Ti (1GB VRAM) or AMD® Radeon™ R7 370 (2 GB VRAM) DirectX: Version 12",
+      "Storage": "10 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1665460,
+      "name": "eFootball™ 2023"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1665460/header.jpg?t=1694144450",
+    "minimum": {
+      "OS": "Windows 10 - 64bit",
+      "CPU": "Intel Core i5-2300, / AMD FX-4350",
+      "RAM": "8 GB RAM",
+      "GPU": "GeForce GTX 660 Ti / Radeon HD 7790",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 - 64bit",
+      "CPU": "Intel Core i5-7600 / AMD Ryzen 5 1600",
+      "RAM": "8 GB RAM",
+      "GPU": "GeForce GTX 1060 / AMD Radeon RX 590",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1454400,
+      "name": "Cookie Clicker"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1454400/header.jpg?t=1693349581",
+    "minimum": {
+      "OS": "Microsoft® Windows Server 2008, Windows 7, or Windows 8 Classic",
+      "CPU": "2.33GHz or faster x86-compatible processor, or Intel Atom™ 1.6GHz or faster processor for netbook class devices",
+      "RAM": "512 MB RAM Storage: 350 MB available space",
+      "GPU": "",
+      "Storage": "350 MB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 322330,
+      "name": "Don't Starve Together"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/322330/header_alt_assets_40.jpg?t=1692638756",
+    "minimum": {
+      "OS": "Windows Vista/Windows 7/Windows 8",
+      "CPU": "1.7+ GHz or better",
+      "RAM": "1 GB RAM",
+      "GPU": "Radeon HD5450 or better; 256 MB or higher DirectX: Version 9.0c",
+      "Storage": "3 GB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 244210,
+      "name": "Assetto Corsa"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/244210/header.jpg?t=1686917372",
+    "minimum": {
+      "OS": "Windows 7 Sp1 - 8 - 8.1 - 10",
+      "CPU": "AMD Athlon X2 2.8 GHZ, Intel Core 2 Duo 2.4 GHZ",
+      "RAM": "2 GB RAM",
+      "GPU": "DirectX 10.1 (e.g. AMD Radeon HD 6450, Nvidia GeForce GT 460) DirectX: Version 11",
+      "Storage": "15 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7 Sp1 - 8 - 8.1 - 10",
+      "CPU": "AMD Six-Core CPU, Intel Quad-Core CPU",
+      "RAM": "6 GB RAM",
+      "GPU": "DirectX 11 (e.g. AMD Radeon 290x, Nvidia GeForce GTX 970) DirectX: Version 11",
+      "Storage": "30 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 284160,
+      "name": "BeamNG.drive"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/284160/header.jpg?t=1693342803",
+    "minimum": {
+      "OS": "Windows 7 Service Pack 1 64-bit",
+      "CPU": "AMD FX 6300 3.5Ghz / Intel Core i3-6300 3.8Ghz",
+      "RAM": "16 GB RAM",
+      "GPU": "Radeon HD 7750 / Nvidia GeForce GTX 550 Ti DirectX: Version 11",
+      "Storage": "45 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64 Bit",
+      "CPU": "AMD Ryzen 7 1700 3.0Ghz / Intel Core i7-6700 3.4Ghz (or better)",
+      "RAM": "32 GB RAM",
+      "GPU": "AMD R9 290 / Nvidia GeForce GTX 970 DirectX: Version 11",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 292030,
+      "name": "The Witcher 3: Wild Hunt"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/292030/header.jpg?t=1693590732",
+    "minimum": {
+      "OS": "64-bit Windows 7, 64-bit Windows 8 (8.1)",
+      "CPU": "Intel CPU Core i5-2500K 3.3GHz / AMD A10-5800K APU (3.8GHz)",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia GPU GeForce GTX 660 / AMD GPU Radeon HD 7870 DirectX: Version 11",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "64-bit Windows 10/11",
+      "CPU": "Intel Core i5-7400 / Ryzen 5 1600",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GTX 1070 / Radeon RX 480 DirectX: Version 12",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 548430,
+      "name": "Deep Rock Galactic"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/548430/header_alt_assets_13.jpg?t=1694073491",
+    "minimum": {
+      "OS": "Windows 7 64 Bit",
+      "CPU": "Intel i5, 3rd gen (or equivalent)",
+      "RAM": "6 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 660 or AMD Radeon HD 7870 DirectX: Version 11",
+      "Storage": "3 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64 Bit",
+      "CPU": "Intel i5, 7th gen (or equivalent)",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA 970 / AMD Radeon 290 DirectX: Version 11",
+      "Storage": "3 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 513710,
+      "name": "SCUM"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/513710/header.jpg?t=1694178344",
+    "minimum": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel Core i5-4430 / AMD FX-6300",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1060 3GB / AMD Radeon RX 480 4GB DirectX: Version 11",
+      "Storage": "70 GB available space SSD"
+    },
+    "recommended": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel Core i5-6600K / AMD Ryzen 5 1600",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 1070 / AMD Radeon RX 580 DirectX: Version 11",
+      "Storage": "70 GB available space SSD"
+    }
+  },
+  {
+    "app": {
+      "appid": 671860,
+      "name": "BattleBit Remastered"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/671860/header.jpg?t=1686877598",
+    "minimum": {
+      "OS": "Windows 10 (x64) - Windows 11 (x64)",
+      "CPU": "Intel Core i5-2310",
+      "RAM": "6 GB RAM",
+      "GPU": "Geforce GTS 450 or equivalent or better DirectX: Version 11",
+      "Storage": "2 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 (x64) - Windows 11 (x64)",
+      "CPU": "Intel Core i5 4th Generation and above",
+      "RAM": "8 GB RAM",
+      "GPU": "Geforce GTX 600 Series or equivalent or better DirectX: Version 11",
+      "Storage": "2 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 990080,
+      "name": "Hogwarts Legacy"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/990080/header.jpg?t=1694060626",
+    "minimum": {
+      "OS": "64-bit Windows 10",
+      "CPU": "Intel Core i5-6600 (3.3Ghz) or AMD Ryzen 5 1400 (3.2Ghz)",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 960 4GB or AMD Radeon RX 470 4GB DirectX: Version 12",
+      "Storage": "85 GB available space"
+    },
+    "recommended": {
+      "OS": "64-bit Windows 10",
+      "CPU": "Intel Core i7-8700 (3.2Ghz) or AMD Ryzen 5 3600 (3.6 Ghz)",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA GeForce 1080 Ti or AMD Radeon RX 5700 XT or INTEL Arc A770 DirectX: Version 12",
+      "Storage": "85 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1997040,
+      "name": "MARVEL SNAP"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1997040/header.jpg?t=1694046140",
+    "minimum": {
+      "OS": "Windows 7 (SP1+)",
+      "CPU": "Intel Core i5-650 | AMD Phenom II X4 965",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia GeForce GTX 650 / AMD Radeon HD HD 6950 DirectX: Version 10",
+      "Storage": "4 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core i5-2300 | AMD FX-6300",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia GeForce GTX 660 / AMD Radeon HD 7970 DirectX: Version 10",
+      "Storage": "4 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1677740,
+      "name": "Stumble Guys"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1677740/header.jpg?t=1694116125",
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "Intel Core 2 Duo E8400 | AMD Phenom II X4 965",
+      "RAM": "4 GB RAM",
+      "GPU": "AMD Radeon HD 7750 | NVIDIA Geforce GTX 260",
+      "Storage": "512 MB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 444090,
+      "name": "Paladins"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/444090/header.jpg?t=1692205411",
+    "minimum": {
+      "OS": "Windows 7 64-bit or newer",
+      "CPU": "Core 2 Duo 2.4 GHz or Athlon X2 2.7 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia GeForce 8800 GT",
+      "Storage": "30 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 8/10 64-bit (latest Service Pack)",
+      "CPU": "Intel Core i5-750, 2.67 GHz / AMD Phenom II X4 965, 3.4 GHz",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia GeForce GTX 660 or ATI Radeon HD 7950",
+      "Storage": "30 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1928420,
+      "name": "Farlight 84"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1928420/header.jpg?t=1693794777",
+    "minimum": {
+      "OS": "64-bit Windows 10",
+      "CPU": "AMD FX 4350 or Equivalent, Intel Core i3 6300 or Equivalent",
+      "RAM": "6 GB RAM",
+      "GPU": "AMD Radeon™ HD 7730, NVIDIA GeForce® GT 640 DirectX: Version 11",
+      "Storage": "10 GB available space"
+    },
+    "recommended": {
+      "OS": "64-bit Windows 10",
+      "CPU": "Ryzen 5 CPU or Equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "AMD Radeon™ R9 290, NVIDIA GeForce® GTX 970 DirectX: Version 11",
+      "Storage": "10 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1364780,
+      "name": "Street Fighter™ 6"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1364780/header_alt_assets_7.jpg?t=1694074938",
+    "minimum": {
+      "OS": "Windows 10 (64 bit required)",
+      "CPU": "Intel Core i5-7500 / AMD Ryzen 3 1200",
+      "RAM": "8 GB RAM",
+      "GPU": "GTX1060 (VRAM 6GB) / Radeon RX 580 (VRAM 4GB) DirectX: Version 12",
+      "Storage": "60 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 (64 bit)/Windows 11 (64 bit)",
+      "CPU": "Intel Core i7 8700 / AMD Ryzen 5 3600",
+      "RAM": "16 GB RAM",
+      "GPU": "RTX2070 / Radeon RX 5700XT DirectX: Version 12",
+      "Storage": "60 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 526870,
+      "name": "Satisfactory"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/526870/header.jpg?t=1686669213",
+    "minimum": {
+      "OS": "Windows 10 or later (64-Bit)",
+      "CPU": "i5-3570 3.4 GHz 4 Core",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GTX 1650/GTX 1050-ti, or AMD RX 470/RX 570, or equivalent performance &amp; VRAM",
+      "Storage": "15 GB available space"
+    },
+    "recommended": {
+      "OS": "TBD",
+      "CPU": "TBD Graphics: TBD Storage: TBD MB available space",
+      "RAM": "",
+      "GPU": "TBD",
+      "Storage": "TBD MB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 440900,
+      "name": "Conan Exiles"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/440900/header.jpg?t=1692951096",
+    "minimum": {
+      "OS": "Windows 10 64 Bit",
+      "CPU": "Intel Quad Core i5-2300 or AMD FX-6300",
+      "RAM": "6 GB RAM",
+      "GPU": "Nvidia GeForce GTX 560 (1GB) or AMD Radeon HD 7770 (1GB) DirectX: Version 11",
+      "Storage": "115 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64 bit",
+      "CPU": "Intel Quad Core i7 3770K or AMD Ryzen 5 1600X",
+      "RAM": "8 GB RAM",
+      "GPU": "nVidia GeForce GTX 780 Ti/970 (High settings) and 1070 (Ultra settings) or AMD R9 290/AMD RX480 (High settings) DirectX: Version 11",
+      "Storage": "115 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1551360,
+      "name": "Forza Horizon 5"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1551360/header.jpg?t=1694603463",
+    "minimum": {
+      "OS": "Windows 10 version 15063.0 or higher",
+      "CPU": "Intel i5-4460 or AMD Ryzen 3 1200",
+      "RAM": "8 GB RAM",
+      "GPU": "NVidia GTX 970 OR AMD RX 470 DirectX: Version 12",
+      "Storage": "110 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 version 15063.0 or higher",
+      "CPU": "Intel i5-8400 or AMD Ryzen 5 1500X",
+      "RAM": "16 GB RAM",
+      "GPU": "NVidia GTX 1070 OR AMD RX 590 DirectX: Version 12",
+      "Storage": "110 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 646570,
+      "name": "Slay the Spire"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/646570/header.jpg?t=1666988685",
+    "minimum": {
+      "OS": "Windows XP, Vista, 7, 8/8.1, 10",
+      "CPU": "2.0 Ghz",
+      "RAM": "2 GB RAM",
+      "GPU": "1Gb Video Memory, capable of OpenGL 3.0+ support (2.1 with ARB extensions acceptable)",
+      "Storage": "1 GB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 435150,
+      "name": "Divinity: Original Sin 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/435150/header.jpg?t=1668591196",
+    "minimum": {
+      "OS": "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+      "CPU": "Intel Core i5 or equivalent",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 550 or ATI™ Radeon™ HD 6XXX or higher DirectX: Version 11",
+      "Storage": "60 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7 SP1 64-bit or Windows 8.1 64-bit or Windows 10 64-bit",
+      "CPU": "Intel Core i7 or equivalent",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 770 or AMD R9 280 DirectX: Version 11",
+      "Storage": "60 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1172620,
+      "name": "Sea of Thieves"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1172620/header.jpg?t=1689874808",
+    "minimum": {
+      "OS": "Windows 10",
+      "CPU": "Intel Q9450 @ 2.6GHz or AMD Phenom II X6 @ 3.3 GHz",
+      "RAM": "4 GB RAM",
+      "GPU": "Nvidia GeForce GTX 650 or AMD Radeon 7750 DirectX: Version 11",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10",
+      "CPU": "Intel i5 4690 @ 3.5GHz or AMD FX-8150 @ 3.6 GHz",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GeForce GTX 770 or AMD Radeon R9 380x DirectX: Version 11",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1466860,
+      "name": "Age of Empires IV: Anniversary Edition"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1466860/header.jpg?t=1692823079",
+    "minimum": {
+      "OS": "Windows 10 64bit | Windows 11 64bit",
+      "CPU": "Intel Core i5-6300U or AMD Ryzen 5 2400G | CPU with AVX support required",
+      "RAM": "8 GB RAM",
+      "GPU": "Intel HD 520 or AMD Radeon RX Vega 11 DirectX: Version 12",
+      "Storage": "50 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10 64bit | Windows 11 64bit",
+      "CPU": "3.6 GHz 6-core (Intel i5) or AMD Ryzen 5 1600 | CPU with AVX support required",
+      "RAM": "16 GB RAM",
+      "GPU": "Nvidia GeForce 970 GPU or AMD Radeon RX 570 GPU with 4GB of VRAM DirectX: Version 12",
+      "Storage": "50 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1237970,
+      "name": "Titanfall® 2"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1237970/header.jpg?t=1668565264",
+    "minimum": {
+      "OS": "Win 7/8/8.1/10 64bit",
+      "CPU": "Intel Core i3-6300t or equivalent [4 or more hardware threads]",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA Geforce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX: Version 11",
+      "Storage": "45 GB available space"
+    },
+    "recommended": {
+      "OS": "Win 7/8/8.1/10 64bit",
+      "CPU": "Intel Core i5-6600 or equivalent",
+      "RAM": "16 GB RAM",
+      "GPU": "NVIDIA Geforce GTX 1060 6GB or AMD Radeon RX 480 8GB DirectX: Version 11",
+      "Storage": "45 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 2050650,
+      "name": "Resident Evil 4"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/2050650/header.jpg?t=1688636510",
+    "minimum": {
+      "OS": "Windows 10 (64 bit)",
+      "CPU": "AMD Ryzen 3 1200 / Intel Core i5-7500",
+      "RAM": "8 GB RAM",
+      "GPU": "AMD Radeon RX 560 with 4GB VRAM / NVIDIA GeForce GTX 1050 Ti with 4GB VRAM DirectX: Version 12",
+      "Storage": ""
+    },
+    "recommended": {
+      "OS": "Windows 10 (64 bit)/Windows 11 (64 bit)",
+      "CPU": "AMD Ryzen 5 3600 / Intel Core i7 8700",
+      "RAM": "16 GB RAM",
+      "GPU": "AMD Radeon RX 5700 / NVIDIA GeForce GTX 1070 DirectX: Version 12",
+      "Storage": ""
+    }
+  },
+  {
+    "app": {
+      "appid": 311210,
+      "name": "Call of Duty: Black Ops III"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/311210/header.jpg?t=1646763462",
+    "minimum": {
+      "OS": "Windows 7 64-Bit / Windows 8 64-Bit / Windows 8.1 64-Bit",
+      "CPU": "Intel® Core™ i3-530 @ 2.93 GHz / AMD Phenom™ II X4 810 @ 2.60 GHz",
+      "RAM": "6 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 470 @ 1GB / ATI® Radeon™ HD 6970 @ 1GB DirectX: Version 11",
+      "Storage": "100 GB available space"
+    },
+    "recommended": ""
+  },
+  {
+    "app": {
+      "appid": 814380,
+      "name": "Sekiro™: Shadows Die Twice"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/814380/header.jpg?t=1678991267",
+    "minimum": {
+      "OS": "Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+      "CPU": "Intel Core i3-2100 | AMD FX-6300",
+      "RAM": "4 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 760 | AMD Radeon HD 7950 DirectX: Version 11",
+      "Storage": "25 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 7 64-bit | Windows 8 64-bit | Windows 10 64-bit",
+      "CPU": "Intel Core i5-2500K | AMD Ryzen 5 1400",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA GeForce GTX 970 | AMD Radeon RX 570 DirectX: Version 11",
+      "Storage": "25 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1971870,
+      "name": "Mortal Kombat 1"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1971870/header.jpg?t=1694636017",
+    "minimum": {
+      "OS": "Windows 10 64-bit",
+      "CPU": "Intel® Core™ i5-6600 | AMD Ryzen™ 3 3100 or Ryzen™ 5 2600",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GeForce® GTX 980 or AMD Radeon™ RX 470 or Intel® Arc™ A750 DirectX: Version 12",
+      "Storage": "100 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10/11 64-bit",
+      "CPU": "Intel® Core™ i5-8400 | AMD Ryzen™ 5 3600X",
+      "RAM": "8 GB RAM",
+      "GPU": "Nvidia GeForce® GTX 1080 Ti or AMD Radeon™ RX 5700 XT or Intel® Arc™ A770 DirectX: Version 12",
+      "Storage": "100 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 1446780,
+      "name": "MONSTER HUNTER RISE"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/1446780/header.jpg?t=1687140511",
+    "minimum": {
+      "OS": "Windows 10 (64-bit)",
+      "CPU": "Intel® Core™ i3-4130 or Core™ i5-3470 or AMD FX™-6100",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GT 1030 (DDR4) or AMD Radeon™ RX 550 DirectX: Version 12",
+      "Storage": "36 GB available space"
+    },
+    "recommended": {
+      "OS": "Windows 10  (64-bit)",
+      "CPU": "Intel® Core™ i5-4460 or AMD FX™-8300",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or AMD Radeon™ RX 570 (VRAM 4GB) DirectX: Version 12",
+      "Storage": "36 GB available space"
+    }
+  },
+  {
+    "app": {
+      "appid": 582010,
+      "name": "Monster Hunter: World"
+    },
+    "image": "https://cdn.akamai.steamstatic.com/steam/apps/582010/header.jpg?t=1661838392",
+    "minimum": {
+      "OS": "WINDOWS® 7, 8, 8.1, 10 (64-bit required)",
+      "CPU": "Intel® Core™ i5 4460 or Core™ i3 9100F or AMD FX™-6300 or Ryzen™ 3 3200G",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA®GeForce®GTX 760 or GTX1050 or AMD Radeon™ R7 260x or RX 560 DirectX: Version 11",
+      "Storage": "52 GB available space"
+    },
+    "recommended": {
+      "OS": "WINDOWS® 7, 8, 8.1, 10 (64-bit required)",
+      "CPU": "Intel® Core™ i7 3770 or Core™ i3 8350 or Core™ i3 9350F / AMD Ryzen™ 5 1500X or Ryzen™ 5 3400G",
+      "RAM": "8 GB RAM",
+      "GPU": "NVIDIA® GeForce® GTX 1060 (VRAM 3GB) or GTX 1650 / AMD Radeon™ RX 480 or RX 570 DirectX: Version 11",
+      "Storage": "52 GB available space"
+    }
+  }
+]

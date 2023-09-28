@@ -10,12 +10,17 @@ class JogoRepository{
         return JSON.parse(await readFile(this.file))
     }
 
-    async getAll(){
+    async getAllGames(){
         const all = await this.__readFile()
         if(all) 
             return all
 
         return null
+    }
+
+    async getGame(id) {
+        const allGames = await this.__readFile()
+        return allGames.find(({id}) => id === id)
     }
 
 }

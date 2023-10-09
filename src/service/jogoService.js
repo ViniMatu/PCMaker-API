@@ -1,19 +1,18 @@
-const JogoRepository = require('../repositories/jogosRepository')
-const jogoRepository = new JogoRepository()
+const JogoRepository = require("../repositories/jogosRepository");
+const jogoRepository = new JogoRepository();
 
-class JogoService{
-    constructor() {
-        this.jogoRepository = jogoRepository
-    }
+class JogoService {
+  constructor() {
+    this.jogoRepository = jogoRepository;
+  }
 
-    async getAll() {
-        return this.jogoRepository.getAll()
-    }
+  async getAllGames() {
+    return this.jogoRepository.getAllGames();
+  }
 
-    async getGame(id){
-        return this.jogoRepository.getGame(id);
-    }
-
+  async getGame(id) {
+    return this.jogoRepository.getGame((id = id));
+  }
 }
 
-module.exports = JogoService
+module.exports = JogoService;

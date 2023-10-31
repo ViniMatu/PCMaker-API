@@ -1,37 +1,34 @@
-const { readFile } = require("fs/promises");
-const file = "./src/database/jogos.json";
+const DB = require('../database/connectDatabase.js');
+const db = new DB()
 
 class JogoRepository {
-  constructor() {
-    this.file = file;
-  }
+  constructor() {}
 
-  async __readFile() {
-    return JSON.parse(await readFile(this.file));
-  }
-
-  async getAllGames() {
-    const all = await this.__readFile();
-    if (all) return all;
-
-    return null;
+  async getAllGames(){
+    const query = "SELECT * FROM games"
+    const result = await db.makeQuery(query)
+    return result
   }
 
   async getGame(idGame) {
-    const allGames = await this.__readFile();
-    return allGames.find((game) => {
-      if (parseInt(idGame) === game.app.appid) {
-        console.log(game);
-        return game;
-      }
-    });
+    const query = `SELECT * FROM games WHERE ${idGame} = games.id`
+    const result = await db.makeQuery(query)
+    return result
   }
 }
 
-const jogosRepository = new JogoRepository({
-  file: "./src/database/jogos.json",
-});
+// async function testeAllGames(){
+//   const games = new JogoRepository()
+//   const allGames = await games.getAllGames()
+//   console.log(allGames)
+// }
+// testeAllGames()
 
-// jogosRepository.find(1).then(console.log).catch(err => console.log(err))
+// async function testeIdGame(idGame){
+//   const games = new JogoRepository()
+//   const result = await games.getGame(idGame)
+//   console.log(result)
+// }
+// testeIdGame(12)
 
 module.exports = JogoRepository;

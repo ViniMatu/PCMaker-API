@@ -11,7 +11,7 @@ class JogoService {
   }
 
   async getGame(id) {
-    return this.jogoRepository.getGame((id = id));
+    return this.jogoRepository.getGame(id);
   }
 }
 

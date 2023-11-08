@@ -16,22 +16,16 @@ class DB{
   } 
 
   async makeQuery(query){
-    try{
-      let conn = null
       try{
-        conn = await this.connection()
+        let conn = await this.connection()
         const [rows, fields] = await conn.execute(query)
+        conn.end()
+        console.log("Conexão com PlanetScale fechada")
         return rows
       }catch(err){
           console.log("Não foi possivel executar a query: ", err)
           throw err
-      } finally{
-        conn.end()
-        console.log("Conexão com PlanetScale fechada")
       }
-    } catch (e){
-      throw e
-    }
   }
 }
 

@@ -4,14 +4,9 @@ require('dotenv').config()
 class DB{
   constructor() {}
 
-  async connection(){
-      const conn = mysql.createConnection(process.env.DATABASE_URL)
-      return conn
-  } 
-
   async makeQuery(query){
       try{
-        let conn = await this.connection()
+        const conn = mysql.createConnection(process.env.DATABASE_URL)
         const rows = await conn.promise().query(query).then(([rows, fields]) => {
           return rows
         }).catch(console.log)

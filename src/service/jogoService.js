@@ -7,7 +7,12 @@ class JogoService {
   }
 
   async getAllGames() {
-    return this.jogoRepository.getAllGames();
+    try{
+      return this.jogoRepository.getAllGames();
+    } catch (e){
+      console.log("Erro ao acessar o repositório: ", e)
+      throw e
+    }
   }
 
   async getGame(id) {

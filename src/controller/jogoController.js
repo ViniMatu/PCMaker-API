@@ -2,8 +2,13 @@ const JogoService = require("../service/jogoService");
 const jogoService = new JogoService("../database/jogos.json");
 
 const getAllGames = async (request, response) => {
-  const jogos = await jogoService.getAllGames();
-  return response.status(200).json(jogos);
+  try{
+    const jogos = await jogoService.getAllGames();
+    return response.status(200).json(jogos);
+  } catch(e){
+    console.log(`Erro ao acesar o serviço de jogos ${e}`)
+    throw e
+  }
 };
 
 const getGame = async (request, response) => {

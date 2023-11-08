@@ -1,21 +1,21 @@
-const mysql = require('mysql2/promise')
+const mysql = require('mysql2')
 require('dotenv').config()
 
 class DB{
   constructor() {}
 
   async connection(){
-      const conn = await mysql.createConnection(process.env.DATABASE_URL).catch(console.log("Conexão feita"))
-      console.log('Connected to PlanetScale!')
+      const conn = mysql.createConnection(process.env.DATABASE_URL)
       return conn
   } 
 
   async makeQuery(query){
       try{
         let conn = await this.connection()
-        const [rows, fields] = await conn.execute(query).catch(console.log('Query feita'))
+        const rows = await conn.promise().query(query).then(([rows, fields]) => {
+          return rows
+        }).catch(console.log)
         conn.end()
-        console.log("Conexão com PlanetScale fechada")
         return rows
       }catch(err){
           console.log("Não foi possivel executar a query: ", err)

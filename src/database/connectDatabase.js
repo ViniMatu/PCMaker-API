@@ -6,7 +6,8 @@ class DB{
 
   async connction(){
     try{
-      const conn = mysql.createConnection(process.env.DATABASE_URL)
+      const dbConfig = process.env.DATABASE_URL
+      const conn = mysql.createConnection(dbConfig)
       console.log(`Conectado ao PlanetScale`)
       return conn
     } catch (e){

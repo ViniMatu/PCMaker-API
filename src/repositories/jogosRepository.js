@@ -25,6 +25,17 @@ class JogoRepository {
       throw e
     }
   }
+
+  async getIdGames(){
+    try{
+      const query = `SELECT games.id FROM games`
+      const result = await db.makeQuery(query)
+      return result
+    } catch (e){
+      console.log("Erro ao tentar pegar os Ids dos jogos: ", e)
+      throw e
+    }
+  }
 }
 
 module.exports = JogoRepository;

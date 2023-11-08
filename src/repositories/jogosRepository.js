@@ -17,18 +17,4 @@ class JogoRepository {
   }
 }
 
-// async function testeAllGames(){
-//   const games = new JogoRepository()
-//   const allGames = await games.getAllGames()
-//   console.log(allGames)
-// }
-// testeAllGames()
-
-// async function testeIdGame(idGame){
-//   const games = new JogoRepository()
-//   const result = await games.getGame(idGame)
-//   console.log(result)
-// }
-// testeIdGame(12)
-
 module.exports = JogoRepository;

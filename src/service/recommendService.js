@@ -25,31 +25,40 @@ class RecommendService{
     }
 
     recommend(type, games){
-        let recommendation = {
-            cpu: this.getBestPiece(`cpu_${type}`, games),
-            gpu: this.getBestPiece(`gpu_${type}`, games),
-            ram: this.getBestPiece(`ram_${type}`, games),
+        try{
+            let recommendation = {
+                cpu: this.getBestPiece(`cpu_${type}`, games),
+                gpu: this.getBestPiece(`gpu_${type}`, games),
+                ram: this.getBestPiece(`ram_${type}`, games),
+            }
+    
+            return recommendation
+        } catch(e){
+            console.log("Erro ao gerar recomendação: ", e)
+            throw e
         }
-
-        return recommendation
     }
 
     getBestPiece(type, games) {
-        const obj = { ...games }
-        let benchmark = ''
-        let bestPiece
+        try{
+            let benchmark = ''
+            let bestPiece
 
-        if(type === 'ram_min' || type === 'ram_req')
-            benchmark = 'Benchmark_Score'
-        else 
-            benchmark = 'Benchmark'
+            if(type === 'ram_min' || type === 'ram_req')
+                benchmark = 'Benchmark_Score'
+            else 
+                benchmark = 'Benchmark'
 
-        bestPiece = games[0][type]
-        for(let i=1; i<games.length; i++){
-            if(games[i][type][benchmark] > bestPiece[benchmark])
-                bestPiece = games[i][type]
+            bestPiece = games[0][type]
+            for(let i=1; i<games.length; i++){
+                if(games[i][type][benchmark] > bestPiece[benchmark])
+                    bestPiece = games[i][type]
+            }
+            return bestPiece
+        } catch (e){
+        console.log("Erro ao escolher a melhor peça: ", e)
+        throw e
         }
-        return bestPiece
     }
 }
 

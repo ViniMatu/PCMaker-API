@@ -1,5 +1,5 @@
 const JogoService = require("../service/jogoService");
-const jogoService = new JogoService("../database/jogos.json");
+const jogoService = new JogoService();
 
 const getAllGames = async (request, response) => {
   try{
@@ -13,8 +13,9 @@ const getAllGames = async (request, response) => {
 
 const getGame = async (request, response) => {
   try{
-    let id = request.params.id;
-    const jogo = await jogoService.getGame(id);
+    const { ids } = request.params
+    const allIds = ids.split("&")
+    const jogo = await jogoService.getGame(allIds);
     return response.status(200).json(jogo);
   } catch (e){
     console.log("Erro ao acessar o serviço de jogos; ", e)

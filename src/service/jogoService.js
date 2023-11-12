@@ -2,22 +2,25 @@ const JogoRepository = require("../repositories/jogosRepository");
 const jogoRepository = new JogoRepository();
 
 class JogoService {
-  constructor() {
-    this.jogoRepository = jogoRepository;
-  }
+  constructor() {}
 
   async getAllGames() {
     try{
-      return this.jogoRepository.getAllGames();
+      return jogoRepository.getAllGames();
     } catch (e){
       console.log("Erro ao acessar o repositório: ", e)
       throw e
     }
   }
 
-  async getGame(id) {
+  async getGame(ids) {
     try{
-      return this.jogoRepository.getGame(id);
+      let games = []
+
+      for(let i=0; i<ids.length;i++)
+        games.push(await jogoRepository.getGame(ids[i]))
+
+      return games;
     } catch(e){
       console.log("Erro ao accessar o repositorio: ", e)
       throw e
@@ -26,7 +29,7 @@ class JogoService {
 
   async getIdGame(){
     try{
-      return this.jogoRepository.getIdGames()
+      return jogoRepository.getIdGames()
     } catch (e){
       console.log("Erro ao acessar o repositorio: ", e)
       throw e

@@ -56,10 +56,10 @@ class JogoRepository {
                     ram_req.benchmark_score AS "ram_req.Benchmark_score",
                     ram_req.benchmark_link AS "ram_req.Benchmark_link" 
                     FROM games_req
-                    LEFT JOIN CPU_Link AS cpu_min ON games_req.cpu_req = cpu_min.id
+                    LEFT JOIN CPU_Link AS cpu_min ON games_req.cpu_min = cpu_min.id
                     LEFT JOIN CPU_Link AS cpu_req ON games_req.cpu_req = cpu_req.id
-                    LEFT JOIN GPU_Link AS gpu_min ON games_req.cpu_req = gpu_min.id
-                    LEFT JOIN GPU_Link AS gpu_req ON games_req.cpu_req = gpu_req.id
+                    LEFT JOIN GPU_Link AS gpu_min ON games_req.gpu_min = gpu_min.id
+                    LEFT JOIN GPU_Link AS gpu_req ON games_req.gpu_req = gpu_req.id
                     LEFT JOIN ram AS ram_min ON games_req.ram_min = ram_min.ram_id
                     LEFT JOIN ram AS ram_req ON games_req.ram_req = ram_req.ram_id`
       const result = await db.makeQuery(query)
@@ -72,114 +72,114 @@ class JogoRepository {
   }
 
   reorganizeObject(obj) {
-    const newObj = { ...obj };
+    const jogoModificado = { ...obj };
   
     // Organiza as chaves aninhadas para um novo objeto
-    newObj.cpu_min = {
-      Type: newObj['cpu_min.Type'],
-      id: newObj['cpu_min.id'],
-      Brand: newObj['cpu_min.Brand'],
-      Model: newObj['cpu_min.Model'],
-      Benchmark: newObj['cpu_min.Benchmark'],
-      URL: newObj['cpu_min.URL'],
+    jogoModificado.cpu_min = {
+      Type: jogoModificado['cpu_min.Type'],
+      id: jogoModificado['cpu_min.id'],
+      Brand: jogoModificado['cpu_min.Brand'],
+      Model: jogoModificado['cpu_min.Model'],
+      Benchmark: jogoModificado['cpu_min.Benchmark'],
+      URL: jogoModificado['cpu_min.URL'],
     };
     
-    newObj.gpu_min = {
-        Type: newObj['gpu_min.Type'],
-        id: newObj['gpu_min.id'],
-        Brand: newObj['gpu_min.Brand'],
-        Model: newObj['gpu_min.Model'],
-        Benchmark: newObj['gpu_min.Benchmark'],
-        URL: newObj['gpu_min.URL'],
+    jogoModificado.gpu_min = {
+        Type: jogoModificado['gpu_min.Type'],
+        id: jogoModificado['gpu_min.id'],
+        Brand: jogoModificado['gpu_min.Brand'],
+        Model: jogoModificado['gpu_min.Model'],
+        Benchmark: jogoModificado['gpu_min.Benchmark'],
+        URL: jogoModificado['gpu_min.URL'],
     };
 
-    newObj.ram_min = {
-        Type: newObj['ram_min.Type'],
-        id: newObj['ram_min.Id'],
-        Brand: newObj['ram_min.Brand'],
-        Model: newObj['ram_min.Model'],
-        Size: newObj['ram_req.Size'],
-        Benchmark_Score: newObj['ram_min.Benchmark_score'],
-        Benchmark_Link: newObj['ram_min.Benchmark_link'],
+    jogoModificado.ram_min = {
+        Type: jogoModificado['ram_min.Type'],
+        id: jogoModificado['ram_min.Id'],
+        Brand: jogoModificado['ram_min.Brand'],
+        Model: jogoModificado['ram_min.Model'],
+        Size: jogoModificado['ram_req.Size'],
+        Benchmark_Score: jogoModificado['ram_min.Benchmark_score'],
+        Benchmark_Link: jogoModificado['ram_min.Benchmark_link'],
     };
     
 
-    newObj.cpu_req = {
-      Type: newObj['cpu_req.Type'],
-      id: newObj['cpu_req.id'],
-      Brand: newObj['cpu_req.Brand'],
-      Model: newObj['cpu_req.Model'],
-      Benchmark: newObj['cpu_req.Benchmark'],
-      URL: newObj['cpu_req.URL'],
+    jogoModificado.cpu_req = {
+      Type: jogoModificado['cpu_req.Type'],
+      id: jogoModificado['cpu_req.id'],
+      Brand: jogoModificado['cpu_req.Brand'],
+      Model: jogoModificado['cpu_req.Model'],
+      Benchmark: jogoModificado['cpu_req.Benchmark'],
+      URL: jogoModificado['cpu_req.URL'],
     };
 
-    newObj.gpu_req = {
-        Type: newObj['gpu_req.Type'],
-        id: newObj['gpu_req.id'],
-        Brand: newObj['gpu_req.Brand'],
-        Model: newObj['gpu_req.Model'],
-        Benchmark: newObj['gpu_req.Benchmark'],
-        URL: newObj['gpu_req.URL'],
+    jogoModificado.gpu_req = {
+        Type: jogoModificado['gpu_req.Type'],
+        id: jogoModificado['gpu_req.id'],
+        Brand: jogoModificado['gpu_req.Brand'],
+        Model: jogoModificado['gpu_req.Model'],
+        Benchmark: jogoModificado['gpu_req.Benchmark'],
+        URL: jogoModificado['gpu_req.URL'],
     };
 
-    newObj.ram_req = {
-        Type: newObj['ram_req.Type'],
-        id: newObj['ram_req.Id'],
-        Brand: newObj['ram_req.Brand'],
-        Model: newObj['ram_req.Model'],
-        Size: newObj['ram_req.Size'],
-        Benchmark_Score: newObj['ram_req.Benchmark_score'],
-        Benchmark_Link: newObj['ram_req.Benchmark_link'],
+    jogoModificado.ram_req = {
+        Type: jogoModificado['ram_req.Type'],
+        id: jogoModificado['ram_req.Id'],
+        Brand: jogoModificado['ram_req.Brand'],
+        Model: jogoModificado['ram_req.Model'],
+        Size: jogoModificado['ram_req.Size'],
+        Benchmark_Score: jogoModificado['ram_req.Benchmark_score'],
+        Benchmark_Link: jogoModificado['ram_req.Benchmark_link'],
     };
     
     // Remove as chaves antigas
-    delete newObj['cpu_min.Type'];
-    delete newObj['cpu_min.id'];
-    delete newObj['cpu_min.Brand'];
-    delete newObj['cpu_min.Model'];
-    delete newObj['cpu_min.Benchmark'];
-    delete newObj['cpu_min.URL'];
+    delete jogoModificado['cpu_min.Type'];
+    delete jogoModificado['cpu_min.id'];
+    delete jogoModificado['cpu_min.Brand'];
+    delete jogoModificado['cpu_min.Model'];
+    delete jogoModificado['cpu_min.Benchmark'];
+    delete jogoModificado['cpu_min.URL'];
     
-    delete newObj['gpu_min.Type'];
-    delete newObj['gpu_min.id'];
-    delete newObj['gpu_min.Brand'];
-    delete newObj['gpu_min.Model'];
-    delete newObj['gpu_min.Benchmark'];
-    delete newObj['gpu_min.URL'];
+    delete jogoModificado['gpu_min.Type'];
+    delete jogoModificado['gpu_min.id'];
+    delete jogoModificado['gpu_min.Brand'];
+    delete jogoModificado['gpu_min.Model'];
+    delete jogoModificado['gpu_min.Benchmark'];
+    delete jogoModificado['gpu_min.URL'];
     
-    delete newObj['ram_min.Type'];
-    delete newObj['ram_min.Id'];
-    delete newObj['ram_min.Brand'];
-    delete newObj['ram_min.Model'];
-    delete newObj['ram_min.Size'];
-    delete newObj['ram_min.Frequency'];
-    delete newObj['ram_min.Benchmark_score'];
-    delete newObj['ram_min.Benchmark_link'];
+    delete jogoModificado['ram_min.Type'];
+    delete jogoModificado['ram_min.Id'];
+    delete jogoModificado['ram_min.Brand'];
+    delete jogoModificado['ram_min.Model'];
+    delete jogoModificado['ram_min.Size'];
+    delete jogoModificado['ram_min.Frequency'];
+    delete jogoModificado['ram_min.Benchmark_score'];
+    delete jogoModificado['ram_min.Benchmark_link'];
 
-    delete newObj['cpu_req.Type'];
-    delete newObj['cpu_req.id'];
-    delete newObj['cpu_req.Brand'];
-    delete newObj['cpu_req.Model'];
-    delete newObj['cpu_req.Benchmark'];
-    delete newObj['cpu_req.URL'];
+    delete jogoModificado['cpu_req.Type'];
+    delete jogoModificado['cpu_req.id'];
+    delete jogoModificado['cpu_req.Brand'];
+    delete jogoModificado['cpu_req.Model'];
+    delete jogoModificado['cpu_req.Benchmark'];
+    delete jogoModificado['cpu_req.URL'];
    
-    delete newObj['gpu_req.Type'];
-    delete newObj['gpu_req.id'];
-    delete newObj['gpu_req.Brand'];
-    delete newObj['gpu_req.Model'];
-    delete newObj['gpu_req.Benchmark'];
-    delete newObj['gpu_req.URL'];
+    delete jogoModificado['gpu_req.Type'];
+    delete jogoModificado['gpu_req.id'];
+    delete jogoModificado['gpu_req.Brand'];
+    delete jogoModificado['gpu_req.Model'];
+    delete jogoModificado['gpu_req.Benchmark'];
+    delete jogoModificado['gpu_req.URL'];
   
-    delete newObj['ram_req.Type'];
-    delete newObj['ram_req.Id'];
-    delete newObj['ram_req.Brand'];
-    delete newObj['ram_req.Model'];
-    delete newObj['ram_req.Size'];
-    delete newObj['ram_req.Frequency'];
-    delete newObj['ram_req.Benchmark_score'];
-    delete newObj['ram_req.Benchmark_link'];
+    delete jogoModificado['ram_req.Type'];
+    delete jogoModificado['ram_req.Id'];
+    delete jogoModificado['ram_req.Brand'];
+    delete jogoModificado['ram_req.Model'];
+    delete jogoModificado['ram_req.Size'];
+    delete jogoModificado['ram_req.Frequency'];
+    delete jogoModificado['ram_req.Benchmark_score'];
+    delete jogoModificado['ram_req.Benchmark_link'];
     
-    return newObj;
+    return jogoModificado;
   }
 
   async getGame(idGame) {
@@ -234,16 +234,16 @@ class JogoRepository {
                     ram_req.benchmark_score AS "ram_req.Benchmark_score",
                     ram_req.benchmark_link AS "ram_req.Benchmark_link" 
                     FROM games_req
-                    LEFT JOIN CPU_Link AS cpu_min ON games_req.cpu_req = cpu_min.id
+                    LEFT JOIN CPU_Link AS cpu_min ON games_req.cpu_min = cpu_min.id
                     LEFT JOIN CPU_Link AS cpu_req ON games_req.cpu_req = cpu_req.id
-                    LEFT JOIN GPU_Link AS gpu_min ON games_req.cpu_req = gpu_min.id
-                    LEFT JOIN GPU_Link AS gpu_req ON games_req.cpu_req = gpu_req.id
+                    LEFT JOIN GPU_Link AS gpu_min ON games_req.gpu_min = gpu_min.id
+                    LEFT JOIN GPU_Link AS gpu_req ON games_req.gpu_req = gpu_req.id
                     LEFT JOIN ram AS ram_min ON games_req.ram_min = ram_min.ram_id
                     LEFT JOIN ram AS ram_req ON games_req.ram_req = ram_req.ram_id
                     WHERE ${idGame} = games_req.ID;`
       const result = await db.makeQuery(query)
-      const modifiedData = result.map(item => this.reorganizeObject(item));
-      return modifiedData[0]
+      const jogoModificado = result.map(item => this.reorganizeObject(item));
+      return jogoModificado[0]
     } catch (e){
       console.log("Erro ao pegar id especifico do jogo: ", e)
       throw e

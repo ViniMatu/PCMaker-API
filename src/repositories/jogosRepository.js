@@ -9,6 +9,7 @@ class JogoRepository {
       const query = `SELECT 
                     games_req.ID,
                     games_req.name,
+                    games_req.image,
                     games_req.cpu_min,
                     games_req.gpu_min,
                     games_req.ram_min,
@@ -187,6 +188,7 @@ class JogoRepository {
       const query = `SELECT 
                     games_req.ID,
                     games_req.name,
+                    games_req.image,
                     games_req.cpu_min,
                     games_req.gpu_min,
                     games_req.ram_min,
@@ -252,7 +254,7 @@ class JogoRepository {
 
   async getIdGames(){
     try{
-      const query = `SELECT games.id FROM games_req AS games`
+      const query = `SELECT games.id, games.name FROM games_req AS games`
       const result = await db.makeQuery(query)
       return result
     } catch (e){

@@ -17,6 +17,7 @@ class RecommendService{
                 minimun: min,
                 recommended: rec
             }
+            
             return recommendation
         } catch (e){
             console.log("Erro ao acessar o repositório: ", e)
@@ -31,7 +32,7 @@ class RecommendService{
                 gpu: this.getBestPiece(`gpu_${type}`, games),
                 ram: this.getBestPiece(`ram_${type}`, games),
             }
-    
+
             return recommendation
         } catch(e){
             console.log("Erro ao gerar recomendação: ", e)
@@ -54,6 +55,7 @@ class RecommendService{
                 if(games[i][type][benchmark] > bestPiece[benchmark])
                     bestPiece = games[i][type]
             }
+
             return bestPiece
         } catch (e){
         console.log("Erro ao escolher a melhor peça: ", e)

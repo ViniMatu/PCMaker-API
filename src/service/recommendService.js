@@ -1,5 +1,5 @@
 const JogoRepository = require("../repositories/jogosRepository")
-const scrapeMercadoLivre = require("../repositories/Marketplace");
+const scrapeMercadoLivre = require("../Marketplace/apiMarketPlace");
 const jogoRepository = new JogoRepository()
 
 class RecommendService{

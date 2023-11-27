@@ -1,0 +1,308 @@
+{
+    "Intel": {
+        "7th Gen": {
+            "i3": {
+                "H110": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H170": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B250": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B270": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B270": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        },
+        "8th Gen": {
+            "i3": {
+                "H310": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H370": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B360": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B365": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B365": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        },
+        "9th Gen": {
+            "i3": {
+                "H310": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H370": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B360": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B365": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B365": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        },
+        "10th Gen": {
+            "i3": {
+                "H310": {
+                    "socket": "LGA 1151",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H370": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B360": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B365": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B365": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        },
+        "11th Gen": {
+            "i3": {
+                "H310": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H370": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B360": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B365": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B365": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1200",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        },
+        "12th Gen": {
+            "i3": {
+                "H310": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H370": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B360": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B365": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B365": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        },
+        "13th Gen": {
+            "i3": {
+                "H310": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "H370": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i5": {
+                "B360": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "B365": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            },
+            "i7": {
+                "B365": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                },
+                "Z370": {
+                    "socket": "LGA 1700",
+                    "max_memory": "64GB",
+                    "pci_express_version": "3.0"
+                }
+            }
+        }
+    },
+    "AMD": {
+        "Ryzen 3": {
+            "A320": {
+                "socket": "AM4",
+                "max_memory": "64GB",
+                "pci_express_version": "3.0"
+            },
+            "B350": {
+                "socket": "AM4",
+                "max_memory": "64GB",
+                "pci_express_version": "3.0"
+            }
+        },
+        "Ryzen 5": {
+            "B450": {
+                "socket": "AM4",
+                "max_memory": "64GB",
+                "pci_express_version": "3.0"
+            },
+            "X470": {
+                "socket": "AM4",
+                "max_memory": "64GB",
+                "pci_express_version": "3.0"
+            }
+        },
+        "Ryzen 7": {
+            "B550": {
+                "socket": "AM4",
+                "max_memory": "128GB",
+                "pci_express_version": "4.0"
+            },
+            "X570": {
+                "socket": "AM4",
+                "max_memory": "64GB",
+                "pci_express_version": "4.0"
+            }
+        }
+    }
+}

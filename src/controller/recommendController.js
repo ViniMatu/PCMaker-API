@@ -2,7 +2,7 @@ const { request, response } = require("express")
 const RecommendService = require("../service/recommendService")
 const recommendService = new RecommendService()
 
-const getRecommend= async (request, response) => {
+const getRecommend = async (request, response) => {
     try{
         const { ids } = request.params
         const allIds = ids.split("&")

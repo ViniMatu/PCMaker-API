@@ -4,7 +4,7 @@ function normalizeString(string) {
     return string.toLowerCase().replace(/[^a-z0-9]/gi, '');
 }
 
-const excludedTerms = ["case", "capa", "acessório", "kit", "Shieldx"];
+const excludedTerms = ["case", "capa", "acessório", "kit", "Shieldx", "fan", "bucha", "espelho", "caixa", "adesivo", "cabochao", "cabocho","correia"];
 
 function isExcluded(title) {
     return excludedTerms.some(term => normalizeString(title).includes(normalizeString(term)));
@@ -22,12 +22,15 @@ async function scrapeMercadoLivre(searchQuery) {
             let price = item.price || "Null";
             let link = item.permalink || "Null";
             let sellerReputation = item.seller.seller_reputation;
+            let image = item.thumbnail || "Null";
+
             if(normalizeString(title).includes(normalizeString(searchQuery)) && !isExcluded(title)){
                 const objeto = {
                     title: title,
                     price: price,
                     link: link,
-                    sellerReputation: sellerReputation
+                    sellerReputation: sellerReputation,
+                    image: image
                 };
                 items.push(objeto);
             }
@@ -35,8 +38,6 @@ async function scrapeMercadoLivre(searchQuery) {
 
         //Filtro de reputação
         items = items.filter(item => item.sellerReputation.level_id === '5_green');
-
-        //organiz preço
         items = items.sort((a, b) => a.price - b.price);
 
         //retorna o melhor preco e de boa reputation

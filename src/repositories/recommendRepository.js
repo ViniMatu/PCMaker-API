@@ -24,9 +24,15 @@ class RecommendRepository{
 
         const type = model.split("Core ")[1].substring(0, 2)
         const gen = model.split("-")[1]
+        let genParam
 
-
+        if (gen.charAt(0) < 7 && gen.replace('K', '').replace('k', '').length === 4){
+            genParam = 7
+        }
         if(gen.replace('K', '').length === 4){
+            if(gen.charAt(0) < '7'){
+                return allMotherboards['Intel'][`7th Gen`][type]
+            }
             return allMotherboards['Intel'][`${gen.charAt(0)}th Gen`][type]
         } else {
             return allMotherboards['Intel'][`${gen.substring(0, 2)}th Gen`][type]

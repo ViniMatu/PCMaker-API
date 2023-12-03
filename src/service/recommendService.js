@@ -7,21 +7,38 @@ const recommendRepository = new RecommendRepository()
 class RecommendService{
     constructor(){}
 
-    prepareSearchQuery(model) {
-        return model;
+    prepareComponentObject(value, category) {
+        if (category === 'ram') {
+            return { size: value };
+        } else if (category === 'fonte') {
+            return { power: value };
+        }
+    }
+    prepareSearchQuery(piece, category) {
+        if (category === 'ram') {
+            return `memória ram ${piece.size}`;
+        }else if(category === 'fonte'){
+            return `fonte ${piece.power}`;
+        }else{
+            return piece.Model;
+        }
     }
 
     async searchComponents(recommendation){
         try{
             for(const category in recommendation){
-                if(recommendation.hasOwnProperty(category) && category != 'ram' ){
-                    const piece = recommendation[category];
-                    //const searchQuery = `${piece.Model}`;
-                    const searchQuery = this.prepareSearchQuery(piece.Model);
+                if(recommendation.hasOwnProperty(category)){
+                    let piece = recommendation[category];
+                    if ((category === 'ram' || category === 'fonte') || (category === 'Motherboard') && typeof piece === 'number') {
+                        piece = this.prepareComponentObject(piece, category);
+                        recommendation[category] = piece;
+                    }
+                    const searchQuery = this.prepareSearchQuery(piece, category);
                     const searchResults = await scrapeMarketPlace.scrapeMercadoLivre(searchQuery);
                     if(searchResults.length > 0){
                         piece.price = searchResults[0].price;
                         piece.link = searchResults[0].link;
+                        piece.imgage = searchResults[0].image;
                     }
                 }
             }

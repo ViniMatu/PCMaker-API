@@ -161,12 +161,12 @@ class RecommendService{
                     powerSource += 100
             }
 
-            let Powersuplie = {
+            let fonte = {
                 Type: "fonte",
-                Powersuplie: powerSource
+                power: powerSource
             }
 
-            recommend.Powersuplie = Powersuplie
+            recommend.fonte = fonte
         } catch (e){
             console.log("Erro ao escolher Power Source")
         }

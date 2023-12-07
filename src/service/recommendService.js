@@ -10,16 +10,18 @@ class RecommendService{
     prepareComponentObject(value, category) {
         if (category === 'ram') {
             return { size: value };
-        } else if (category === 'fonte') {
-            return { power: value };
         }
+
     }
     prepareSearchQuery(piece, category) {
         if (category === 'ram') {
             return `memória ram ${piece.size}`;
         }else if(category === 'fonte'){
-            return `fonte ${piece.power}`;
-        }else{
+            return `fonte de alimentação ${piece.power}`;
+        }else if(category === 'Motherboard') {
+            return `placa mae ${piece.Model}`;
+        }
+        else{
             return piece.Model;
         }
     }
@@ -29,7 +31,7 @@ class RecommendService{
             for(const category in recommendation){
                 if(recommendation.hasOwnProperty(category)){
                     let piece = recommendation[category];
-                    if ((category === 'ram' || category === 'fonte') || (category === 'Motherboard') && typeof piece === 'number') {
+                    if ((category === 'ram') || (category === 'Motherboard') && typeof piece === 'number') {
                         piece = this.prepareComponentObject(piece, category);
                         recommendation[category] = piece;
                     }

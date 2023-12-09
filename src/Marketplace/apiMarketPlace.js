@@ -4,7 +4,8 @@ function normalizeString(string) {
     return string.toLowerCase().replace(/[^a-z0-9]/gi, '');
 }
 
-const excludedTerms = ["espelho", "case", "capa", "acessório", "kit", "Shieldx", "fan", "bucha", "espelho", "caixa", "adesivo", "cabochao", "cabocho", "correia"];
+const excludedTerms = ["espelho", "case", "capa", "acessório", "kit", "Shieldx", "fan", "bucha", "espelho", "caixa", "adesivo", "cabochao", "cabocho", "correia",
+"ventilador", "fan"];
 
 function isExcluded(title) {
     return excludedTerms.some(term => normalizeString(title).includes(normalizeString(term)));

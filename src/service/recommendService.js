@@ -15,7 +15,7 @@ class RecommendService{
     }
     prepareSearchQuery(piece, category) {
         if (category === 'ram') {
-            return `memória ram ${piece.size}`;
+            return `${piece.size} Gb Ddr4`;
         }else if(category === 'fonte'){
             return `fonte de alimentação ${piece.power}`;
         }else if(category === 'Motherboard') {
@@ -38,7 +38,8 @@ class RecommendService{
                     const searchQuery = this.prepareSearchQuery(piece, category);
                     const searchResults = await scrapeMarketPlace.scrapeMercadoLivre(searchQuery);
                     if(searchResults.length > 0){
-                        piece.name = `Memoria Ram ${piece.size} GB`;
+                        if(category === 'ram') piece.name = `Memoria Ram ${piece.size} GB`;
+                        else if(category === 'fonte') piece.name = `fonte de alimentação ${piece.power} Watts`;
                         piece.price = searchResults[0].price;
                         piece.link = searchResults[0].link;
                         piece.imgage = searchResults[0].image;

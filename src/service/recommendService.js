@@ -38,6 +38,7 @@ class RecommendService{
                     const searchQuery = this.prepareSearchQuery(piece, category);
                     const searchResults = await scrapeMarketPlace.scrapeMercadoLivre(searchQuery);
                     if(searchResults.length > 0){
+                        piece.name = `Memoria Ram ${piece.size} GB`;
                         piece.price = searchResults[0].price;
                         piece.link = searchResults[0].link;
                         piece.imgage = searchResults[0].image;
@@ -96,12 +97,15 @@ class RecommendService{
         try{
             let benchmark = 'Benchmark_Score'
             let bestPiece
-
             bestPiece = games[0][type]
-            for(let i=1; i<games.length; i++){
-                if(games[i][type][benchmark] > bestPiece[benchmark])
-                    bestPiece = games[i][type]
-            }
+            if((type.includes("ram")))
+                for(let i=1; i<games.length; i++)
+                    if(games[i][type] > bestPiece)
+                        bestPiece = games[i][type]
+            else
+                for(let i=1; i<games.length; i++)
+                    if(games[i][type][benchmark] > bestPiece[benchmark])
+                        bestPiece = games[i][type]
 
             return bestPiece
         } catch (e){

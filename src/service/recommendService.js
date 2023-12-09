@@ -38,7 +38,8 @@ class RecommendService{
                     const searchQuery = this.prepareSearchQuery(piece, category);
                     const searchResults = await scrapeMarketPlace.scrapeMercadoLivre(searchQuery);
                     if(searchResults.length > 0){
-                        piece.name = `Memoria Ram ${piece.size} GB`;
+                        if(category === 'ram') piece.name = `Memoria Ram ${piece.size} GB`;
+                        else if(category === 'fonte') piece.name = `Fonte de alimentação ${piece.power} Watts`;
                         piece.price = searchResults[0].price;
                         piece.link = searchResults[0].link;
                         piece.imgage = searchResults[0].image;

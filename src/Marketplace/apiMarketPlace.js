@@ -5,7 +5,7 @@ function normalizeString(string) {
 }
 
 const excludedTerms = ["espelho", "case", "capa", "acessório", "kit", "Shieldx", "fan", "bucha", "espelho", "caixa", "adesivo", "cabochao", "cabocho", "correia",
-"ventilador", "fan"];
+"ventilador", "fan", "caixas", "vazias", "embalagem"];
 
 function isExcluded(title) {
     return excludedTerms.some(term => normalizeString(title).includes(normalizeString(term)));

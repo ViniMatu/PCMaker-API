@@ -15,7 +15,7 @@ class RecommendService{
     }
     prepareSearchQuery(piece, category) {
         if (category === 'ram') {
-            return `memória ram ${piece.size}`;
+            return `${piece.size} Gb ddr4`;
         }else if(category === 'fonte'){
             return `fonte de alimentação ${piece.power}`;
         }else if(category === 'Motherboard') {

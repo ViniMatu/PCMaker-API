@@ -10,16 +10,18 @@ class RecommendService{
     prepareComponentObject(value, category) {
         if (category === 'ram') {
             return { size: value };
-        } else if (category === 'fonte') {
-            return { power: value };
         }
+
     }
     prepareSearchQuery(piece, category) {
         if (category === 'ram') {
             return `memória ram ${piece.size}`;
         }else if(category === 'fonte'){
-            return `fonte ${piece.power}`;
-        }else{
+            return `fonte de alimentação ${piece.power}`;
+        }else if(category === 'Motherboard') {
+            return `placa mae ${piece.Model}`;
+        }
+        else{
             return piece.Model;
         }
     }
@@ -29,7 +31,7 @@ class RecommendService{
             for(const category in recommendation){
                 if(recommendation.hasOwnProperty(category)){
                     let piece = recommendation[category];
-                    if ((category === 'ram' || category === 'fonte') || (category === 'Motherboard') && typeof piece === 'number') {
+                    if ((category === 'ram') || (category === 'Motherboard') && typeof piece === 'number') {
                         piece = this.prepareComponentObject(piece, category);
                         recommendation[category] = piece;
                     }
@@ -81,6 +83,7 @@ class RecommendService{
             }
 
             await this.getMotherboard(recommendation, typeReq)
+            await this.getPowerSource(recommendation)
 
             return recommendation
         } catch(e){
@@ -134,7 +137,41 @@ class RecommendService{
             console.log("Erro ao escolher a placa-mãe: ", e)
             throw e
         }
+    }
 
+    async getPowerSource(recommend){
+        try{
+            let powerSource
+            const cpuModel = recommend['gpu']['Model']
+            if(cpuModel.includes("i3") || cpuModel.includes("Rayzen 3"))
+                powerSource = 450
+            else if(cpuModel.includes("i5") || cpuModel.includes("Rayzen 5"))
+                powerSource = 550
+            else 
+                powerSource = 650
+
+            const gpuModel = recommend[`cpu`][`Model`]
+            if(recommend[`cpu`][`Brand`] === "Intel"){
+                if(gpuModel.includes("RTX 40"))
+                    powerSource += 150
+                else
+                    powerSource += 100
+            } else if(recommend[`cpu`][`Brand`] === "AMD"){
+                if(gpuModel.includes("RX 7000"))
+                    powerSource += 200
+                else 
+                    powerSource += 100
+            }
+
+            let fonte = {
+                Type: "fonte",
+                power: powerSource
+            }
+
+            recommend.fonte = fonte
+        } catch (e){
+            console.log("Erro ao escolher Power Source")
+        }
     }
 }
 

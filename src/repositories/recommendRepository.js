@@ -1,3 +1,4 @@
+const { all } = require("axios")
 const { readFile } = require("fs/promises")
 const file = "./src/database/motherboard.json"
 
@@ -16,7 +17,10 @@ class RecommendRepository{
 
         let model = type.substring(0, 7)
 
-        return allMotherboards["AMD"][model]
+        if (allMotherboards["AMD"][model] !== undefined)
+            return allMotherboards["AMD"][model]
+        else 
+            return allMotherboards["AMD"]["Ryzen 3"]
     }
 
     async getIntel(model){

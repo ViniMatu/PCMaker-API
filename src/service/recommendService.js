@@ -38,6 +38,7 @@ class RecommendService{
                     const searchQuery = this.prepareSearchQuery(piece, category);
                     const searchResults = await scrapeMarketPlace.scrapeMercadoLivre(searchQuery);
                     if(searchResults.length > 0){
+                        piece.name = `Memoria Ram ${piece.size} GB`;
                         piece.price = searchResults[0].price;
                         piece.link = searchResults[0].link;
                         piece.imgage = searchResults[0].image;

@@ -52,7 +52,8 @@ function filterConditions(results, reputations, reputationLevel, condition, quer
     return results.filter((item, index) =>
         reputations[index] === reputationLevel &&
         item.condition === condition &&
-        normalizeString(item.title).includes(normalizedQuery)
+        normalizeString(item.title).includes(normalizedQuery) &&
+        !isExcluded(item.title)  // Check if the title is excluded
     ).map(item => createItemObject(item));
 }
 

@@ -99,14 +99,16 @@ class RecommendService{
             let benchmark = 'Benchmark_Score'
             let bestPiece
             bestPiece = games[0][type]
-            if((type.includes("ram")))
+            if((type.includes("ram"))){
                 for(let i=1; i<games.length; i++)
                     if(games[i][type] > bestPiece)
                         bestPiece = games[i][type]
-            else
+            }
+            else{
                 for(let i=1; i<games.length; i++)
                     if(games[i][type][benchmark] > bestPiece[benchmark])
                         bestPiece = games[i][type]
+            }
 
             return bestPiece
         } catch (e){

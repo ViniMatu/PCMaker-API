@@ -2,12 +2,12 @@
     "Intel": {
         "7th Gen": {
             "i3": {
-                "H110": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H310": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -19,14 +19,14 @@
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H61": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "H61": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -57,14 +57,14 @@
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H61": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "H61": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -95,14 +95,14 @@
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H61": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "H61": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"

@@ -11,15 +11,14 @@ class RecommendService{
         if (category === 'ram') {
             return { size: value };
         }
-
     }
     prepareSearchQuery(piece, category) {
         if (category === 'ram') {
             return `${piece.size} Gb Ddr4`;
         }else if(category === 'fonte'){
-            return `fonte de alimentação ${piece.power}`;
+            return `${piece.power} w 80 plus`;
         }else if(category === 'Motherboard') {
-            return `placa mae ${piece.Model}`;
+            return `${piece.Model} ${piece.Infos.socket}`;
         }
         else{
             return piece.Model;
@@ -124,7 +123,7 @@ class RecommendService{
                 let boards = await recommendRepository.getAmd(recommend['cpu']['Model'])
                 let keys =  Object.keys(boards)
                 let motherBoard = {
-                    infos: boards[keys[req]],
+                    Infos: boards[keys[req]],
                     Model: keys[req],
                     Type: "MotherBoard"
                 }

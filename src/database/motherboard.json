@@ -2,31 +2,31 @@
     "Intel": {
         "7th Gen": {
             "i3": {
-                "H110": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H170": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B250": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "B270": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "B270": {
+                "B365": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -40,19 +40,19 @@
         },
         "8th Gen": {
             "i3": {
-                "H310": {
+                "H110": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H370": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B360": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -78,19 +78,19 @@
         },
         "9th Gen": {
             "i3": {
-                "H310": {
+                "H110": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H370": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B360": {
+                "H310": {
                     "socket": "LGA 1151",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -116,36 +116,36 @@
         },
         "10th Gen": {
             "i3": {
-                "H310": {
-                    "socket": "LGA 1151",
+                "H510": {
+                    "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H370": {
+                "B560": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B360": {
+                "H510": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "B365": {
+                "B560": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "B365": {
+                "B560": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "Z370": {
+                "Z490": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -154,36 +154,36 @@
         },
         "11th Gen": {
             "i3": {
-                "H310": {
+                "H510": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H370": {
+                "B560": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B360": {
+                "H510": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "B365": {
+                "B560": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "B365": {
+                "B560": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "Z370": {
+                "Z490": {
                     "socket": "LGA 1200",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -192,36 +192,36 @@
         },
         "12th Gen": {
             "i3": {
-                "H310": {
+                "H610": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H370": {
+                "B760": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B360": {
+                "B760": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "B365": {
+                "Z790": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "B365": {
+                "B760": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "Z370": {
+                "Z790": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -230,36 +230,36 @@
         },
         "13th Gen": {
             "i3": {
-                "H310": {
+                "H610": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "H370": {
+                "B760": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i5": {
-                "B360": {
+                "B760": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "B365": {
+                "Z790": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 }
             },
             "i7": {
-                "B365": {
+                "B760": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
                 },
-                "Z370": {
+                "Z790": {
                     "socket": "LGA 1700",
                     "max_memory": "64GB",
                     "pci_express_version": "3.0"
@@ -269,12 +269,12 @@
     },
     "AMD": {
         "Ryzen 3": {
-            "A320": {
+            "A520": {
                 "socket": "AM4",
                 "max_memory": "64GB",
                 "pci_express_version": "3.0"
             },
-            "B350": {
+            "B450": {
                 "socket": "AM4",
                 "max_memory": "64GB",
                 "pci_express_version": "3.0"
@@ -286,10 +286,10 @@
                 "max_memory": "64GB",
                 "pci_express_version": "3.0"
             },
-            "X470": {
+            "X570": {
                 "socket": "AM4",
                 "max_memory": "64GB",
-                "pci_express_version": "3.0"
+                "pci_express_version": "4.0"
             }
         },
         "Ryzen 7": {
